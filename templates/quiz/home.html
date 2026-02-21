@@ -1,0 +1,30 @@
+{% extends 'quiz/base.html' %}
+{% block title %}Matematika Sertifikati{% endblock %}
+{% block content %}
+<div style="text-align:center">
+  <div class="certificate-badge">🏆</div>
+  <h1>Matematika<br>Sertifikati</h1>
+  <p class="subtitle">6 ta sertifikat darajasi · 1080 ta noyob savol · Har urinishda random tartib</p>
+  
+  <div class="info-grid">
+    <div class="info-card"><span class="num">1080</span><div class="label">Noyob savol</div></div>
+    <div class="info-card"><span class="num">45</span><div class="label">Imtihon savoli</div></div>
+    <div class="info-card"><span class="num">60s</span><div class="label">Har savol uchun</div></div>
+  </div>
+
+  <div class="grade-table">
+    <h3>Natija tizimi</h3>
+    <div class="grade-row"><span>43–45 to'g'ri (96–100%)</span><span class="grade-badge g-aplus">A+</span></div>
+    <div class="grade-row"><span>40–42 to'g'ri (89–95%)</span><span class="grade-badge g-a">A</span></div>
+    <div class="grade-row"><span>36–39 to'g'ri (80–88%)</span><span class="grade-badge g-bplus">B+</span></div>
+    <div class="grade-row"><span>32–35 to'g'ri (71–79%)</span><span class="grade-badge g-b">B</span></div>
+    <div class="grade-row"><span>27–31 to'g'ri (60–70%)</span><span class="grade-badge g-cplus">C+</span></div>
+    <div class="grade-row"><span>23–26 to'g'ri (51–59%)</span><span class="grade-badge g-c">C</span></div>
+    <div class="grade-row"><span>22 va kam (&lt;50%)</span><span class="grade-badge g-fail">—</span></div>
+  </div>
+
+  <a href="/levels/" class="btn-start">Darajani Tanlash →</a>
+  <br>
+  <a href="/leaderboard/" class="btn-secondary" style="margin-top:8px">🏆 Reytingni ko'rish</a>
+</div>
+{% endblock %}

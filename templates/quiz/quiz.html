@@ -1,0 +1,153 @@
+{% extends 'quiz/base.html' %}
+{% block title %}Savol {{ current }}/{{ total }} — Matematika Sertifikati{% endblock %}
+{% block extra_css %}
+<style>
+  body{justify-content:flex-start;padding-top:20px}
+  .quiz-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+  .q-counter{font-size:13px;color:var(--muted);font-weight:500}
+  .q-counter span{color:var(--gold);font-weight:700;font-size:20px}
+  .level-chip{font-size:13px;padding:5px 14px;border-radius:20px;font-weight:700;font-family:'Playfair Display',serif}
+  .timer-wrap{background:var(--surface);border:1px solid rgba(201,168,76,.3);border-radius:10px;padding:7px 16px;font-size:20px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif;min-width:70px;text-align:center;transition:all .3s}
+  .timer-wrap.danger{color:var(--red);border-color:rgba(224,85,85,.4);animation:timerPulse .5s ease infinite alternate}
+  @keyframes timerPulse{from{transform:scale(1)}to{transform:scale(1.05)}}
+  .progress-bar{height:5px;background:rgba(255,255,255,.07);border-radius:3px;margin-bottom:28px;overflow:hidden}
+  .progress-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-light));border-radius:3px;transition:width .4s ease}
+  .question-card{background:var(--surface);border:1px solid rgba(255,255,255,.07);border-radius:20px;padding:28px;margin-bottom:18px}
+  .question-text{font-size:clamp(15px,2.5vw,18px);font-weight:500;line-height:1.65}
+  .options-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+  .option-btn{background:var(--surface2);border:2px solid rgba(255,255,255,.07);border-radius:13px;padding:15px 18px;cursor:pointer;text-align:left;color:var(--text);font-size:14px;font-family:'DM Sans',sans-serif;transition:all .22s;display:flex;align-items:center;gap:11px;line-height:1.4;width:100%}
+  .option-btn:hover:not(:disabled){border-color:var(--gold);background:rgba(201,168,76,.08);transform:translateY(-1px)}
+  .opt-label{min-width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;color:var(--gold);flex-shrink:0}
+  .option-btn.correct{border-color:var(--green)!important;background:rgba(76,175,130,.12)!important}
+  .option-btn.correct .opt-label{background:var(--green);color:#fff}
+  .option-btn.wrong{border-color:var(--red)!important;background:rgba(224,85,85,.1)!important}
+  .option-btn.wrong .opt-label{background:var(--red);color:#fff}
+  .option-btn:disabled{cursor:default;opacity:.8}
+  .btn-next{width:100%;margin-top:14px;background:var(--surface);border:1px solid rgba(201,168,76,.4);color:var(--gold);padding:15px;border-radius:13px;font-size:15px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .25s;display:none}
+  .btn-next:hover{background:rgba(201,168,76,.1);transform:translateY(-1px)}
+  @media(max-width:600px){.options-grid{grid-template-columns:1fr}.option-btn{padding:12px 14px}}
+</style>
+{% endblock %}
+{% block content %}
+<div class="quiz-header">
+  <div class="q-counter">Savol <span>{{ current }}</span> / {{ total }}</div>
+  <div class="level-chip" id="level-chip">{{ level }}</div>
+  <div class="timer-wrap" id="timer">60</div>
+</div>
+<div class="progress-bar">
+  <div class="progress-fill" id="progress-fill" style="width:{{ progress }}%"></div>
+</div>
+<div class="question-card">
+  <p class="question-text" id="question-text">{{ question.text }}</p>
+</div>
+<div class="options-grid" id="options-grid">
+  {% for label, opt in opts_with_labels %}
+  <button class="option-btn" data-index="{{ forloop.counter0 }}" onclick="selectAnswer({{ forloop.counter0 }})">
+    <span class="opt-label">{{ label }}</span>{{ opt }}
+  </button>
+  {% endfor %}
+</div>
+<button class="btn-next" id="btn-next" onclick="goNext()">
+  {% if current == total %}Natijani ko'rish →{% else %}Keyingi savol →{% endif %}
+</button>
+
+<script>
+const CORRECT_INDEX = {{ question.correct }};
+const IS_LAST = {% if current == total %}true{% else %}false{% endif %};
+let timeLeft = 60;
+let timerInterval;
+let answered = false;
+
+const timerEl = document.getElementById('timer');
+const btnNext = document.getElementById('btn-next');
+
+// Set level chip color
+const levelColors = {
+  'C':'#ffc470','C+':'#ffb450','B':'#7ab2f2','B+':'#5599ee','A':'#6bc99a','A+':'#4caf82'
+};
+const chip = document.getElementById('level-chip');
+const lv = '{{ level }}';
+if(levelColors[lv]) {
+  chip.style.background = levelColors[lv] + '22';
+  chip.style.color = levelColors[lv];
+  chip.style.border = '1px solid ' + levelColors[lv] + '55';
+}
+
+function startTimer() {
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    timerEl.textContent = timeLeft;
+    if(timeLeft <= 10) timerEl.className = 'timer-wrap danger';
+    if(timeLeft <= 0) {
+      clearInterval(timerInterval);
+      autoFail();
+    }
+  }, 1000);
+}
+
+function autoFail() {
+  if(answered) return;
+  answered = true;
+  disableButtons();
+  const btns = document.querySelectorAll('.option-btn');
+  btns[CORRECT_INDEX].classList.add('correct');
+  btnNext.style.display = 'block';
+}
+
+function selectAnswer(idx) {
+  if(answered) return;
+  answered = true;
+  clearInterval(timerInterval);
+
+  // Send to server
+  fetch('/answer/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-CSRFToken': getCookie('csrftoken')
+    },
+    body: JSON.stringify({selected: idx})
+  })
+  .then(r => r.json())
+  .then(data => {
+    const btns = document.querySelectorAll('.option-btn');
+    disableButtons();
+    if(data.is_correct) {
+      btns[idx].classList.add('correct');
+    } else {
+      btns[idx].classList.add('wrong');
+      btns[data.correct_index].classList.add('correct');
+    }
+    btnNext.style.display = 'block';
+    if(data.is_last) {
+      btnNext.textContent = 'Natijani ko\'rish →';
+    }
+  });
+}
+
+function disableButtons() {
+  document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
+}
+
+function goNext() {
+  if(IS_LAST || document.getElementById('btn-next').textContent.includes('Natija')) {
+    window.location.href = '/result/';
+  } else {
+    window.location.reload();
+    // Actually we redirect the quiz route which gives next question
+    window.location.href = '/quiz/';
+  }
+}
+
+function getCookie(name) {
+  let val = null;
+  document.cookie.split(';').forEach(c => {
+    c = c.trim();
+    if(c.startsWith(name + '=')) val = decodeURIComponent(c.slice(name.length + 1));
+  });
+  return val;
+}
+
+startTimer();
+</script>
+{% endblock %}

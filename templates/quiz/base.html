@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}Matematika Sertifikati{% endblock %}</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--gold:#c9a84c;--gold-light:#e8c97a;--deep:#0d0d1a;--surface:#13132a;--surface2:#1a1a35;--text:#e8e8f0;--muted:#8888aa;--green:#4caf82;--red:#e05555;--blue:#5599ee}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'DM Sans',sans-serif;background:var(--deep);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;background-image:radial-gradient(ellipse at 20% 50%,rgba(201,168,76,.08) 0%,transparent 50%),radial-gradient(ellipse at 80% 20%,rgba(85,153,238,.05) 0%,transparent 50%)}
+  .container{width:100%;max-width:780px}
+  h1{font-family:'Playfair Display',serif;font-size:clamp(26px,5vw,44px);font-weight:900;color:var(--gold);letter-spacing:-1px;margin-bottom:10px;line-height:1.1}
+  h2{font-family:'Playfair Display',serif;color:var(--gold);font-size:28px;margin-bottom:8px}
+  .subtitle{color:var(--muted);font-size:15px;margin-bottom:32px;line-height:1.6}
+  .certificate-badge{width:110px;height:110px;margin:0 auto 28px;background:linear-gradient(135deg,var(--gold),var(--gold-light));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:46px;box-shadow:0 0 60px rgba(201,168,76,.3);animation:pulse 3s ease-in-out infinite}
+  @keyframes pulse{0%,100%{box-shadow:0 0 60px rgba(201,168,76,.3)}50%{box-shadow:0 0 80px rgba(201,168,76,.5)}}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+  .btn-start{background:linear-gradient(135deg,var(--gold),var(--gold-light));color:#0d0d1a;border:none;padding:17px 56px;font-size:17px;font-weight:600;border-radius:50px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .3s;box-shadow:0 8px 32px rgba(201,168,76,.3);letter-spacing:.5px;display:inline-block;text-decoration:none;margin-bottom:12px}
+  .btn-start:hover{transform:translateY(-3px);box-shadow:0 16px 48px rgba(201,168,76,.4);color:#0d0d1a}
+  .btn-secondary{background:rgba(255,255,255,.05);border:2px solid rgba(255,255,255,.15);color:var(--text);padding:14px 28px;font-size:15px;font-weight:600;border-radius:50px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .3s;text-decoration:none;display:inline-block}
+  .btn-secondary:hover{background:rgba(255,255,255,.1);transform:translateY(-2px);color:var(--text)}
+  .btn-outline{background:transparent;border:2px solid var(--gold);color:var(--gold);padding:14px 38px;font-size:15px;font-weight:600;border-radius:50px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .3s;text-decoration:none;display:inline-block}
+  .btn-outline:hover{background:rgba(201,168,76,.1);transform:translateY(-2px);color:var(--gold)}
+  .info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:32px}
+  .info-card{background:var(--surface);border:1px solid rgba(201,168,76,.18);border-radius:15px;padding:18px 14px;text-align:center}
+  .info-card .num{font-family:'Playfair Display',serif;font-size:30px;font-weight:700;color:var(--gold);display:block}
+  .info-card .label{font-size:12px;color:var(--muted);margin-top:3px}
+  .grade-table{background:var(--surface);border:1px solid rgba(255,255,255,.07);border-radius:15px;padding:22px;margin-bottom:32px;text-align:left}
+  .grade-table h3{font-size:13px;text-transform:uppercase;letter-spacing:2px;color:var(--muted);margin-bottom:14px}
+  .grade-row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.05);font-size:14px}
+  .grade-row:last-child{border-bottom:none}
+  .grade-badge{font-weight:700;padding:3px 13px;border-radius:20px;font-size:13px;font-family:'Playfair Display',serif}
+  .g-aplus{background:rgba(76,175,130,.2);color:#4caf82}.g-a{background:rgba(76,175,130,.15);color:#6bc99a}
+  .g-bplus{background:rgba(85,153,238,.2);color:#5599ee}.g-b{background:rgba(85,153,238,.15);color:#7ab2f2}
+  .g-cplus{background:rgba(255,180,80,.2);color:#ffb450}.g-c{background:rgba(255,180,80,.15);color:#ffc470}
+  .g-fail{background:rgba(224,85,85,.2);color:#e05555}
+  .nav-links{position:fixed;top:16px;right:16px;display:flex;gap:10px;z-index:100}
+  .nav-link{color:var(--muted);font-size:13px;text-decoration:none;padding:6px 14px;border:1px solid rgba(255,255,255,.1);border-radius:20px;transition:all .2s;background:rgba(13,13,26,.8);backdrop-filter:blur(10px)}
+  .nav-link:hover{color:var(--gold);border-color:var(--gold)}
+  @media(max-width:600px){.info-grid{grid-template-columns:1fr 1fr}}
+  @media(max-width:400px){.info-grid{grid-template-columns:1fr}}
+</style>
+{% block extra_css %}{% endblock %}
+</head>
+<body>
+<nav class="nav-links">
+  <a href="/" class="nav-link">🏠 Bosh sahifa</a>
+  <a href="/leaderboard/" class="nav-link">🏆 Reyting</a>
+  <a href="/admin/" class="nav-link">⚙️ Admin</a>
+</nav>
+<div class="container" style="animation:fadeIn .8s ease">
+  {% block content %}{% endblock %}
+</div>
+</body>
+</html>

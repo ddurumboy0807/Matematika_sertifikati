@@ -1,0 +1,8234 @@
+{
+  "C": [
+    {
+      "q": "15 + 28 = ?",
+      "opts": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "100 − 63 = ?",
+      "opts": [
+        "37",
+        "47",
+        "27",
+        "57"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "8 × 7 = ?",
+      "opts": [
+        "54",
+        "56",
+        "58",
+        "52"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "72 ÷ 9 = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3 + 4 × 2 = ?",
+      "opts": [
+        "14",
+        "11",
+        "8",
+        "10"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(6 + 4) × 3 = ?",
+      "opts": [
+        "18",
+        "30",
+        "22",
+        "26"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "5² = ?",
+      "opts": [
+        "10",
+        "20",
+        "25",
+        "15"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "√36 = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "1/2 + 1/4 = ?",
+      "opts": [
+        "2/6",
+        "3/4",
+        "1/6",
+        "2/4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3/4 − 1/4 = ?",
+      "opts": [
+        "1/4",
+        "1/2",
+        "2/4",
+        "3/8"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2/3 × 3 = ?",
+      "opts": [
+        "2",
+        "6/9",
+        "1",
+        "3"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "1/2 ÷ 4 = ?",
+      "opts": [
+        "2",
+        "1/4",
+        "1/8",
+        "4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "50 ning 10% i = ?",
+      "opts": [
+        "5",
+        "10",
+        "15",
+        "50"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "200 ning 25% i = ?",
+      "opts": [
+        "25",
+        "50",
+        "75",
+        "100"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "80 ning 50% i = ?",
+      "opts": [
+        "20",
+        "40",
+        "60",
+        "80"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "120 ning 20% i = ?",
+      "opts": [
+        "12",
+        "20",
+        "24",
+        "30"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "0.5 + 0.3 = ?",
+      "opts": [
+        "0.7",
+        "0.8",
+        "0.9",
+        "1.0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1.5 × 2 = ?",
+      "opts": [
+        "2.5",
+        "3.0",
+        "3.5",
+        "4.0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "0.25 × 4 = ?",
+      "opts": [
+        "0.5",
+        "1.0",
+        "1.5",
+        "2.0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2.4 ÷ 0.6 = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3/5 ning o'nli ko'rinishi = ?",
+      "opts": [
+        "0.3",
+        "0.5",
+        "0.6",
+        "0.35"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "0.75 ning kasr ko'rinishi = ?",
+      "opts": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "2/3"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Eng katta umumiy bo'luvchi: EKUB(12, 8) = ?",
+      "opts": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "EKUB(15, 10) = ?",
+      "opts": [
+        "3",
+        "5",
+        "10",
+        "15"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Eng kichik umumiy karrali: EKUK(4, 6) = ?",
+      "opts": [
+        "2",
+        "12",
+        "18",
+        "24"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "EKUK(3, 5) = ?",
+      "opts": [
+        "5",
+        "8",
+        "15",
+        "30"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "45 ga bo'linadigan son: qaysi?",
+      "opts": [
+        "100",
+        "90",
+        "95",
+        "85"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "7 ga bo'linadigan son: qaysi?",
+      "opts": [
+        "50",
+        "56",
+        "54",
+        "58"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Tub son: qaysi?",
+      "opts": [
+        "9",
+        "15",
+        "17",
+        "21"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Tub son emas: qaysi?",
+      "opts": [
+        "11",
+        "13",
+        "17",
+        "21"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "|-7| = ?",
+      "opts": [
+        "-7",
+        "7",
+        "0",
+        "49"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "|-15| + |3| = ?",
+      "opts": [
+        "12",
+        "18",
+        "15",
+        "17"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2³ = ?",
+      "opts": [
+        "6",
+        "8",
+        "9",
+        "16"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3⁴ = ?",
+      "opts": [
+        "12",
+        "27",
+        "64",
+        "81"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "4³ = ?",
+      "opts": [
+        "12",
+        "16",
+        "48",
+        "64"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "√49 = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "√64 = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "√121 = ?",
+      "opts": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "2.5² = ?",
+      "opts": [
+        "4",
+        "5",
+        "6.25",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar x = 3 bo'lsa, 2x + 1 = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar y = 4 bo'lsa, y² − 2 = ?",
+      "opts": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "5 × 0 = ?",
+      "opts": [
+        "5",
+        "1",
+        "0",
+        "50"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "0 ÷ 7 = ?",
+      "opts": [
+        "1",
+        "7",
+        "0",
+        "aniqlanmagan"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "7 ÷ 0 = ?",
+      "opts": [
+        "0",
+        "7",
+        "1",
+        "aniqlanmagan"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "1 yildagi oylar soni = ?",
+      "opts": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "1 haftadagi kunlar soni = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "1 soatdagi daqiqalar soni = ?",
+      "opts": [
+        "30",
+        "45",
+        "60",
+        "100"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "1 kg = ? gramm",
+      "opts": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "1 metr = ? sm",
+      "opts": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1 km = ? metr",
+      "opts": [
+        "100",
+        "500",
+        "1000",
+        "10000"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "1 litr = ? ml",
+      "opts": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Eng kichik natural son = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "-1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Eng kichik butun son mavjudmi?",
+      "opts": [
+        "Ha, u 0",
+        "Ha, u 1",
+        "Yo'q",
+        "Ha, u -1"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Juft sonlar: 1,2,3,4,5,6 ichida nechtasi?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1 dan 10 gacha toq sonlar: nechtasi?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "100 ÷ 4 = ?",
+      "opts": [
+        "20",
+        "25",
+        "30",
+        "40"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "150 ÷ 6 = ?",
+      "opts": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "7 × 9 = ?",
+      "opts": [
+        "56",
+        "63",
+        "72",
+        "54"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "6 × 8 = ?",
+      "opts": [
+        "42",
+        "48",
+        "54",
+        "56"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "11 × 12 = ?",
+      "opts": [
+        "121",
+        "122",
+        "132",
+        "142"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "25 × 4 = ?",
+      "opts": [
+        "80",
+        "90",
+        "100",
+        "110"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "48 ÷ 6 = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "63 ÷ 7 = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "54 ÷ 6 = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "35 ÷ 5 = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "3 va 7 ning EKUK = ?",
+      "opts": [
+        "7",
+        "10",
+        "21",
+        "35"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "6 va 9 ning EKUB = ?",
+      "opts": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "4 va 12 ning EKUB = ?",
+      "opts": [
+        "2",
+        "4",
+        "6",
+        "12"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2 va 3 ning EKUK = ?",
+      "opts": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "37 + 48 = ?",
+      "opts": [
+        "75",
+        "83",
+        "85",
+        "95"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "93 − 47 = ?",
+      "opts": [
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "126 + 74 = ?",
+      "opts": [
+        "190",
+        "200",
+        "210",
+        "220"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "300 − 145 = ?",
+      "opts": [
+        "145",
+        "155",
+        "160",
+        "165"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "15 × 8 = ?",
+      "opts": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "240 ÷ 8 = ?",
+      "opts": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3/8 + 1/8 = ?",
+      "opts": [
+        "4/8",
+        "1/2",
+        "3/4",
+        "1/4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "5/6 − 1/6 = ?",
+      "opts": [
+        "1/3",
+        "2/3",
+        "4/6",
+        "1/2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2/5 + 1/5 = ?",
+      "opts": [
+        "3/10",
+        "3/5",
+        "1/5",
+        "4/5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "7/10 − 3/10 = ?",
+      "opts": [
+        "2/5",
+        "3/5",
+        "4/10",
+        "1/2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "3/4 ning 2 barobari = ?",
+      "opts": [
+        "3/8",
+        "3/2",
+        "6/8",
+        "1/2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2/3 ning yarmi = ?",
+      "opts": [
+        "1/6",
+        "1/3",
+        "2/6",
+        "1/4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1000 ning 5% i = ?",
+      "opts": [
+        "5",
+        "50",
+        "500",
+        "5000"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "500 ning 40% i = ?",
+      "opts": [
+        "100",
+        "150",
+        "200",
+        "250"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "60 ning 30% i = ?",
+      "opts": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "75 ning 20% i = ?",
+      "opts": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar narx 100 so'm bo'lsa, 15% chegirma = ?",
+      "opts": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar narx 200 so'm bo'lsa, 10% ustama → yangi narx = ?",
+      "opts": [
+        "210",
+        "220",
+        "230",
+        "240"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Kvadratning yuzi (tomon=7) = ?",
+      "opts": [
+        "14",
+        "28",
+        "49",
+        "56"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "To'g'ri to'rtburchak perimetri (5×3) = ?",
+      "opts": [
+        "8",
+        "15",
+        "16",
+        "30"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Uchburchak perimetri (3,4,5) = ?",
+      "opts": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Kub hajmi (a=2) = ?",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "3.7 + 2.8 = ?",
+      "opts": [
+        "6.3",
+        "6.5",
+        "6.7",
+        "6.9"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "5.4 − 1.9 = ?",
+      "opts": [
+        "3.3",
+        "3.5",
+        "3.7",
+        "4.1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "0.6 × 0.3 = ?",
+      "opts": [
+        "0.09",
+        "0.18",
+        "0.27",
+        "1.8"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1.2 ÷ 0.4 = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "9.6 ÷ 3 = ?",
+      "opts": [
+        "3.0",
+        "3.2",
+        "3.4",
+        "3.6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "4.5 × 2 = ?",
+      "opts": [
+        "7.0",
+        "8.0",
+        "9.0",
+        "9.5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ketma-ketlik: 3, 6, 9, 12, ?",
+      "opts": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ketma-ketlik: 5, 10, 20, 40, ?",
+      "opts": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ketma-ketlik: 1, 4, 9, 16, ?",
+      "opts": [
+        "20",
+        "24",
+        "25",
+        "36"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ketma-ketlik: 2, 3, 5, 8, 13, ?",
+      "opts": [
+        "17",
+        "18",
+        "20",
+        "21"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "100 ga yaxlitlash: 347 → ?",
+      "opts": [
+        "300",
+        "340",
+        "350",
+        "400"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "10 ga yaxlitlash: 83 → ?",
+      "opts": [
+        "80",
+        "85",
+        "90",
+        "83"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Eng katta: 3/4, 2/3, 5/8 — qaysi katta?",
+      "opts": [
+        "2/3",
+        "5/8",
+        "3/4",
+        "teng"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Eng kichik: 5/6, 3/4, 7/8 — qaysi kichik?",
+      "opts": [
+        "5/6",
+        "3/4",
+        "7/8",
+        "teng"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Soat 3:00 dan 3:45 gacha = ? daqiqa",
+      "opts": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Soat 9:30 dan 11:00 gacha = ? soat ? daqiqa",
+      "opts": [
+        "1:00",
+        "1:30",
+        "2:00",
+        "2:30"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Poyezd 60 km/soat. 3 soatda = ? km",
+      "opts": [
+        "120",
+        "180",
+        "200",
+        "240"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Velosiped 15 km/soat. 2 soatda = ? km",
+      "opts": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "80 km masofani 4 soatda bosib o'tish uchun tezlik = ?",
+      "opts": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Agar 1$ = 12 500 so'm bo'lsa, 5$ = ? so'm",
+      "opts": [
+        "52500",
+        "60000",
+        "62500",
+        "65000"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar mahsulot narxi 3 000 so'm bo'lsa, 5 ta = ?",
+      "opts": [
+        "12000",
+        "13000",
+        "14000",
+        "15000"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Kassa: 10 000 so'mdan qaytim 3 200 so'm olindi. Nechaga xarid?",
+      "opts": [
+        "5800",
+        "6000",
+        "6800",
+        "7200"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "300 dan 120 qoldiq qancha foiz?",
+      "opts": [
+        "40%",
+        "50%",
+        "60%",
+        "70%"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "50 dan 70 ga o'sish foizi = ?",
+      "opts": [
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Uchburchak burchaklari: 60°, 70°, ? = ?",
+      "opts": [
+        "40°",
+        "50°",
+        "60°",
+        "70°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "To'rtburchak burchaklari yig'indisi = ?",
+      "opts": [
+        "180°",
+        "270°",
+        "360°",
+        "450°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "To'g'ri burchak necha gradus?",
+      "opts": [
+        "45°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Tekis burchak necha gradus?",
+      "opts": [
+        "90°",
+        "135°",
+        "180°",
+        "270°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "To'la burchak necha gradus?",
+      "opts": [
+        "180°",
+        "270°",
+        "360°",
+        "720°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Yig'indi: 1+2+3+...+10 = ?",
+      "opts": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ko'paytma: 1×2×3×4×5 = ?",
+      "opts": [
+        "60",
+        "100",
+        "120",
+        "150"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "2⁵ = ?",
+      "opts": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "10³ = ?",
+      "opts": [
+        "30",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "5⁰ = ?",
+      "opts": [
+        "0",
+        "1",
+        "5",
+        "25"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "√100 = ?",
+      "opts": [
+        "5",
+        "10",
+        "20",
+        "50"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "√81 = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "√144 = ?",
+      "opts": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "√225 = ?",
+      "opts": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "4/6 soddalashtirish = ?",
+      "opts": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "9/12 soddalashtirish = ?",
+      "opts": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "5/6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "15/20 soddalashtirish = ?",
+      "opts": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "6/8 + 2/8 = ?",
+      "opts": [
+        "8/16",
+        "7/8",
+        "1",
+        "9/8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "5/9 − 2/9 = ?",
+      "opts": [
+        "1/9",
+        "2/9",
+        "3/9",
+        "1/3"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Nisbat: 2:3 = 10:?",
+      "opts": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Nisbat: 5:4 = 20:?",
+      "opts": [
+        "12",
+        "14",
+        "16",
+        "25"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Proporsiya: 3/4 = ?/12",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Proporsiya: 5/? = 1/3",
+      "opts": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Arifmetik o'rta: 10, 20, 30 → o'rta = ?",
+      "opts": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "O'rta qiymat: 5, 7, 9, 11, 13 → o'rta = ?",
+      "opts": [
+        "7",
+        "9",
+        "11",
+        "13"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Median: 3, 5, 7, 9, 11 → median = ?",
+      "opts": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Moda: 2, 3, 3, 4, 5, 3 → moda = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Juft tomonli to'rtburchak = ?",
+      "opts": [
+        "kvadrat",
+        "romb",
+        "parallelogram",
+        "trapeziya"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Barcha tomonlari teng to'rtburchak = ?",
+      "opts": [
+        "to'g'ri to'rtburchak",
+        "romb",
+        "kvadrat",
+        "trapeziya"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Bir juft parallel tomonli to'rtburchak = ?",
+      "opts": [
+        "parallelogram",
+        "trapeziya",
+        "romb",
+        "kvadrat"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Uchburchak tomonlari: 3, 4, 5. Bu qanday uchburchak?",
+      "opts": [
+        "o'tkir burchakli",
+        "to'g'ri burchakli",
+        "o'tmas burchakli",
+        "teng tomonli"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Teng yonli uchburchakda nechta teng tomon?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Teng tomonli uchburchak bir burchagi = ?",
+      "opts": [
+        "45°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Doira diametri r=5 bo'lganda d = ?",
+      "opts": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Doira uzunligi C = 2πr. r=3 → C = ?",
+      "opts": [
+        "3π",
+        "6π",
+        "9π",
+        "12π"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Doira yuzi S = πr². r=4 → S = ?",
+      "opts": [
+        "4π",
+        "8π",
+        "16π",
+        "64π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Kvadrat yuzi (tomon=9) = ?",
+      "opts": [
+        "18",
+        "36",
+        "81",
+        "90"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Dikdörtgen (3×7) yuzi = ?",
+      "opts": [
+        "10",
+        "14",
+        "20",
+        "21"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Uchburchak yuzi = ½ × asos × balandlik. a=6, h=4 → ?",
+      "opts": [
+        "10",
+        "12",
+        "14",
+        "24"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Trapeziya yuzi = ½(a+b)h. a=5, b=3, h=4 → ?",
+      "opts": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Romb yuzi = ½d₁d₂. d₁=6, d₂=8 → ?",
+      "opts": [
+        "14",
+        "24",
+        "48",
+        "96"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "To'g'ri to'rtburchakli parallelpiped hajmi (2×3×5) = ?",
+      "opts": [
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Silindr hajmi = πr²h. r=3, h=5 → ?",
+      "opts": [
+        "15π",
+        "30π",
+        "45π",
+        "90π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Shar hajmi = 4/3 πr³. r=3 → ?",
+      "opts": [
+        "9π",
+        "27π",
+        "36π",
+        "108π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Konus hajmi = 1/3 πr²h. r=3, h=4 → ?",
+      "opts": [
+        "9π",
+        "12π",
+        "36π",
+        "48π"
+      ],
+      "ans": 1
+    }
+  ],
+  "CP": [
+    {
+      "q": "2x + 5 = 13 → x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3x − 7 = 14 → x = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "5x + 2 = 27 → x = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "4x − 3 = 21 → x = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x/3 + 2 = 5 → x = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x/4 − 1 = 3 → x = ?",
+      "opts": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "2(x+3) = 14 → x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3(2x−1) = 15 → x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x + 3y = 12, x = 3 → y = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2x + y = 10, y = 4 → x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x − 2y = 1, y = 2 → x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "3x + 2y = 16, x = 2 → y = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "5x = 3x + 12 → x = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "4x − 2 = 2x + 8 → x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "7x + 3 = 4x + 18 → x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Nisbat: 3:5 = 12:?",
+      "opts": [
+        "15",
+        "18",
+        "20",
+        "25"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Nisbat: 7:4 = 21:?",
+      "opts": [
+        "8",
+        "12",
+        "16",
+        "28"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Nisbat: 2:9 = 8:?",
+      "opts": [
+        "18",
+        "27",
+        "36",
+        "45"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Nisbat: 5:6 = 25:?",
+      "opts": [
+        "24",
+        "28",
+        "30",
+        "36"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "To'g'ri proporsiya: x artishi, y = ? artadimi?",
+      "opts": [
+        "kamayadi",
+        "o'zgarmaydi",
+        "ortadi",
+        "manfiy bo'ladi"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Teskari proporsiya: x 2 marta ortsa, y = ?",
+      "opts": [
+        "2 marta ortadi",
+        "2 marta kamayadi",
+        "o'zgarmaydi",
+        "0 bo'ladi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Tezlik 60 km/soat, masofa 180 km → vaqt = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Vaqt 2.5 soat, tezlik 80 km/soat → masofa = ?",
+      "opts": [
+        "150",
+        "180",
+        "200",
+        "220"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Masofa 240 km, vaqt 4 soat → tezlik = ?",
+      "opts": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "A va B orasida 360 km. A 60 km/soat, B 90 km/soat. Qarama-qarshi yo'nalishda qachon uchrashadilar?",
+      "opts": [
+        "2 soat",
+        "3 soat",
+        "4 soat",
+        "2.4 soat"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "A 40 km/soat, B 60 km/soat. B 1 soat kech ketdi. A 3 soat ketdi → farq = ?",
+      "opts": [
+        "20",
+        "40",
+        "60",
+        "80"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Kolxozchi 6 kunda 120 kg sabzi yig'di. Kuniga o'rtacha = ?",
+      "opts": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Agar 5 ishchi 10 kunda tugatsa, 10 ishchi necha kunda tugatadi?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar 3 mashina 6 soatda yuk tashisa, 6 mashina necha soatda tashiydi?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Idishda 240 litr suv. 4 kunda iste'mol qilinsa, kuniga = ?",
+      "opts": [
+        "40",
+        "50",
+        "60",
+        "80"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Arifmetik o'rta: 14, 18, 22, 26 → o'rta = ?",
+      "opts": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "5 sonning o'rtasi 12. Yig'indi = ?",
+      "opts": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "O'rta 8, soni 6 → yig'indi = ?",
+      "opts": [
+        "42",
+        "46",
+        "48",
+        "52"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Yig'indi 90, soni 5 → o'rta = ?",
+      "opts": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Uchburchak yuzi = 24, asosi = 8 → balandlik = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Kvadrat yuzi = 81 → tomon = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "To'g'ri to'rtburchak yuzi = 48, eni = 6 → bo'yi = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Doira yuzi = 25π → radius = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Doira uzunligi = 12π → radius = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Shar yuzasi = 4πr². r=5 → yuza = ?",
+      "opts": [
+        "20π",
+        "25π",
+        "50π",
+        "100π"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Kub yuzasi = 6a². a=4 → yuza = ?",
+      "opts": [
+        "48",
+        "64",
+        "72",
+        "96"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Parallelogramm perimetri (a=7, b=5) = ?",
+      "opts": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Teng yonli trapeziya (a=10, b=6, yon=5) perimetri = ?",
+      "opts": [
+        "24",
+        "26",
+        "28",
+        "30"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Romb tomoni = 6. Perimetr = ?",
+      "opts": [
+        "12",
+        "18",
+        "24",
+        "30"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "To'g'ri burchakli uchburchak katetlari 5 va 12 → gipotenuza = ?",
+      "opts": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Gipotenuza = 17, katet = 8 → ikkinchi katet = ?",
+      "opts": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Gipotenuza = 25, katet = 24 → ikkinchi katet = ?",
+      "opts": [
+        "5",
+        "7",
+        "8",
+        "10"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3-4-5 ning 3 barobarlangan triple: qaysi?",
+      "opts": [
+        "6-8-10",
+        "9-12-16",
+        "6-9-10",
+        "9-12-15"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "5-12-13 ning 2 barobarlangan triple: qaysi?",
+      "opts": [
+        "10-24-26",
+        "10-22-26",
+        "10-24-28",
+        "10-26-30"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Parallelogramm yuzi = asos × balandlik. a=9, h=6 → ?",
+      "opts": [
+        "27",
+        "36",
+        "45",
+        "54"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Trapesiya yuzi: a=10, b=6, h=5 → ?",
+      "opts": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Romb yuzi d₁=10, d₂=12 → ?",
+      "opts": [
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Ko'pburchak burchaklari yig'indisi: n=5 → ?",
+      "opts": [
+        "450°",
+        "540°",
+        "630°",
+        "720°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ko'pburchak burchaklari yig'indisi: n=6 → ?",
+      "opts": [
+        "540°",
+        "600°",
+        "720°",
+        "900°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ko'pburchak burchaklari yig'indisi: n=8 → ?",
+      "opts": [
+        "900°",
+        "1080°",
+        "1260°",
+        "1440°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Muntazam uchburchak burchagi = ?",
+      "opts": [
+        "45°",
+        "60°",
+        "75°",
+        "90°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Muntazam to'rtburchak (kvadrat) burchagi = ?",
+      "opts": [
+        "60°",
+        "75°",
+        "90°",
+        "120°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Muntazam oltiburchak burchagi = ?",
+      "opts": [
+        "100°",
+        "110°",
+        "120°",
+        "130°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Muntazam beshburchak burchagi = ?",
+      "opts": [
+        "100°",
+        "108°",
+        "112°",
+        "120°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Aylana va to'g'ri chiziq: 2 kesishma nuqtasi → munosabat = ?",
+      "opts": [
+        "tangent",
+        "sekant",
+        "parallel",
+        "perpendicular"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Aylana va to'g'ri chiziq: 1 umumiy nuqta → munosabat = ?",
+      "opts": [
+        "sekant",
+        "tangent",
+        "parallel",
+        "kesishma"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Aylana va to'g'ri chiziq: umumiy nuqta yo'q → ?",
+      "opts": [
+        "tangent",
+        "sekant",
+        "parallel yoki tashqi",
+        "kesishma"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ikkita aylana: bir-birining ichida emas, tashqarisida → umumiy tangentlar = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ikkita aylana: ichki tangent → umumiy tangentlar = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Vertikal burchaklar: bir-biriga = ?",
+      "opts": [
+        "to'ldiruvchi",
+        "qo'shni",
+        "teng",
+        "perpendicular"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Yondosh burchaklar yig'indisi = ?",
+      "opts": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ko'ndalang kesuvchi parallellar orasidagi almashma burchaklar = ?",
+      "opts": [
+        "to'ldiruvchi",
+        "teng",
+        "qo'shni",
+        "0°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ko'ndalang kesuvchi parallellar: suyanchiq burchaklar yig'indisi = ?",
+      "opts": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ichki burchak (inscribed angle) markaz burchagining = ?",
+      "opts": [
+        "tengi",
+        "yarmi",
+        "ikki barobari",
+        "3 barob."
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Diametrga suyanuvchi yozilgan burchak = ?",
+      "opts": [
+        "45°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Uchburchakning medianalari kesishish nuqtasi = ?",
+      "opts": [
+        "ortosenta",
+        "tsentsenta (og'irlik markazi)",
+        "aylananing markazi",
+        "burchak bissektrissi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Uchburchakning balandliklari kesishish nuqtasi = ?",
+      "opts": [
+        "ortosenta",
+        "tsentsenta",
+        "circumcenter",
+        "incenter"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Uchburchak yozilgan aylananing markazi = ?",
+      "opts": [
+        "ortosenta",
+        "tsentsenta",
+        "circumcenter (aylanish markazi)",
+        "incenter"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Uchburchak ichiga yozilgan aylananing markazi = ?",
+      "opts": [
+        "ortosenta",
+        "tsentsenta",
+        "circumcenter",
+        "incenter (bissektrisalar kesishishi)"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "5n − 3 = 2n + 9 → n = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "8 − 3x = 2x − 7 → x = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "2(3x+1) = 4(x+2) → x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x/2 + x/3 = 5 → x = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(x+4)/3 = (x−1)/2 → x = ?",
+      "opts": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar ikkita son nisbati 3:5 va yig'indisi 40 bo'lsa, kattasi = ?",
+      "opts": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Agar ikkita son nisbati 2:7 va farqi 30 bo'lsa, kichigi = ?",
+      "opts": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3 son: a:b:c = 2:3:5, yig'indi = 100 → b = ?",
+      "opts": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Agar 2x = 5y bo'lsa, x:y = ?",
+      "opts": [
+        "2:5",
+        "5:2",
+        "5:3",
+        "2:3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x² + y² = 25, xy = 12 → (x+y)² = ?",
+      "opts": [
+        "37",
+        "49",
+        "61",
+        "50"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "a+b = 7, a−b = 3 → ab = ?",
+      "opts": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "a² − b² = 45, a−b = 5 → a+b = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(a+b)² − (a−b)² = ?",
+      "opts": [
+        "2ab",
+        "4ab",
+        "a²+b²",
+        "2a²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "a + 1/a = 3 → a² + 1/a² = ?",
+      "opts": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x = 2, y = 3 → 2x²y − xy² = ?",
+      "opts": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x = −2 → x³ − 2x + 1 = ?",
+      "opts": [
+        "−7",
+        "−3",
+        "3",
+        "7"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Funksiya: f(x) = 3x − 1. f(4) = ?",
+      "opts": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Funksiya: g(x) = x² + 2x. g(−1) = ?",
+      "opts": [
+        "−3",
+        "−1",
+        "1",
+        "3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = 2x + 5, f(x) = 11 → x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = x² − 4, f(x) = 0 → x = ?",
+      "opts": [
+        "±1",
+        "±2",
+        "±3",
+        "±4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Funksiya f(x) = |x| da f(−5) = ?",
+      "opts": [
+        "−5",
+        "0",
+        "5",
+        "25"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) va g(x) kompozitsiyasi: f(g(x)). f(x) = 2x, g(x) = x+3 → f(g(2)) = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "To'g'ri chiziq tenglamasi y = 2x − 1. x = 3 → y = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "y = 3x + 2 to'g'ri chiziq, (0, ?) nuqtadan o'tadi?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "y = −x + 4 to'g'ri chiziq, y = 0 bo'lsa x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ikkita parallel chiziq: y=2x+1 va y=2x−3. Ular bir-biriga ... ?",
+      "opts": [
+        "kesishadi",
+        "paralleldir",
+        "perpendikulyar",
+        "bir xil"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = 3x + 1 va y = −1/3 x + 2. Ular ...?",
+      "opts": [
+        "parallel",
+        "perpendicular",
+        "kesishadi oddiy",
+        "bir xil"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Koordinata tekisligida (2,3) nuqtaning I-choraqqa tegishliligimi?",
+      "opts": [
+        "Yo'q",
+        "Ha",
+        "Faqat salbiy",
+        "Qisman"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(−3, 5) nuqtasi qaysi choraqda?",
+      "opts": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(4, −2) nuqtasi qaysi choraqda?",
+      "opts": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "(−1, −7) nuqtasi qaysi choraqda?",
+      "opts": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ikki nuqta (1,2) va (4,6) orasidagi masofa = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(0,0) va (5,12) orasidagi masofa = ?",
+      "opts": [
+        "10",
+        "12",
+        "13",
+        "17"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(2,3) va (5,7) orasidagi masofa = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Segment (1,2)-(5,6) o'rtasidagi nuqta = ?",
+      "opts": [
+        "(2,3)",
+        "(3,4)",
+        "(4,5)",
+        "(2,4)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Segment (0,0)-(6,8) o'rtasidagi nuqta = ?",
+      "opts": [
+        "(2,4)",
+        "(3,4)",
+        "(4,4)",
+        "(3,5)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "To'g'ri chiziq y = kx + b da b = 0 → chiziq qayerdan o'tadi?",
+      "opts": [
+        "(1,0)",
+        "(0,1)",
+        "(0,0)",
+        "(1,1)"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "To'g'ri chiziq qiyaligi (slope) nima?",
+      "opts": [
+        "y-kesim",
+        "Δy/Δx",
+        "Δx/Δy",
+        "x-kesim"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Qiyalik k = (y₂−y₁)/(x₂−x₁). (1,2) va (3,6) → k = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Qiyalik (2,5) va (4,9) → k = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "k = 0 bo'lsa to'g'ri chiziq = ?",
+      "opts": [
+        "vertikal",
+        "gorizontal",
+        "diagonal",
+        "eğik"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Vertikal to'g'ri chiziq tenglamasi = ?",
+      "opts": [
+        "y = a",
+        "x = a",
+        "y = kx",
+        "x = ky"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Gorizontal to'g'ri chiziq tenglamasi = ?",
+      "opts": [
+        "y = a",
+        "x = a",
+        "y = kx",
+        "x = ky"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "3x + 2y = 12 va x = 2, y = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2x − y = 5 va y = 3, x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sistema: x+y=8, x−y=2 → x=?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Sistema: 2x+y=11, x+2y=10 → x+y=?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Sistema: 3x−y=7, x+y=5 → x=?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sistema: x+3y=9, 2x−y=8 → y=?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Sistema: 2x+3y=12, x−y=1 → y=?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sistema: 4x+y=14, 2x+3y=12 → x=?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Uchburchak tomonlari: 5, 5, 6. Perimetr = ?",
+      "opts": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Uchburchak tomonlari: 7, 8, 9. Perimetr = ?",
+      "opts": [
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Kvadrat perimetri = 36 → tomon = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Dikdörtgen perimetri = 30, bo'yi = 10 → eni = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Dikdörtgen perimetri = 26, eni = 5 → bo'yi = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Romb perimetri = 28 → tomon = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Oltiburchak perimetri = 48 → bir tomon = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Romb yuzi = 60, d₁ = 12 → d₂ = ?",
+      "opts": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Uchburchak tomonlari 3:4:5 va perimetr 60 → eng uzun tomon = ?",
+      "opts": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "ans": 1
+    }
+  ],
+  "B": [
+    {
+      "q": "x² − 7x + 12 = 0 ildizlari = ?",
+      "opts": [
+        "3 va 4",
+        "2 va 6",
+        "1 va 12",
+        "4 va 3"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x² + 5x + 6 = 0 ildizlari = ?",
+      "opts": [
+        "−2 va −3",
+        "2 va 3",
+        "−1 va −6",
+        "1 va 6"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x² − 2x − 8 = 0 ildizlari = ?",
+      "opts": [
+        "4 va −2",
+        "−4 va 2",
+        "2 va 4",
+        "−2 va −4"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x² − 9 = 0 → x = ?",
+      "opts": [
+        "±3",
+        "±9",
+        "±1",
+        "±4.5"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x² + 6x + 9 = 0 → x = ?",
+      "opts": [
+        "3",
+        "−3",
+        "±3",
+        "0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2x² − 8x = 0 → x = ?",
+      "opts": [
+        "0 va 2",
+        "0 va 4",
+        "0 va −4",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "D = b²−4ac. a=1, b=4, c=3 → D = ?",
+      "opts": [
+        "4",
+        "8",
+        "12",
+        "28"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "D = b²−4ac. a=1, b=6, c=9 → D = ?",
+      "opts": [
+        "0",
+        "4",
+        "12",
+        "−4"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "D = b²−4ac. a=1, b=2, c=5 → D = ?",
+      "opts": [
+        "−16",
+        "−4",
+        "4",
+        "16"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Viyet: x₁+x₂ = −b/a. a=1, b=−7, c=12 → x₁+x₂ = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Viyet: x₁·x₂ = c/a. a=1, b=−5, c=6 → x₁·x₂ = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Tenglama x₁+x₂=3, x₁·x₂=2 → tenglama = ?",
+      "opts": [
+        "x²−3x+2=0",
+        "x²+3x+2=0",
+        "x²−3x−2=0",
+        "x²+3x−2=0"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "3x² − 12 = 0 → x = ?",
+      "opts": [
+        "±1",
+        "±2",
+        "±3",
+        "±4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x² + 4x + 4 = 0 → x = ?",
+      "opts": [
+        "−2 (qo'sh)",
+        "2",
+        "±2",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "4x² − 1 = 0 → x = ?",
+      "opts": [
+        "±1",
+        "±1/2",
+        "±1/4",
+        "±2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "a² − 2ab + b² = ?",
+      "opts": [
+        "(a+b)²",
+        "(a−b)²",
+        "a²+b²",
+        "(a−b)(a+b)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "a² + 2ab + b² = ?",
+      "opts": [
+        "(a+b)²",
+        "(a−b)²",
+        "a²+b²",
+        "(a+b)(a−b)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "a³ + b³ = ?",
+      "opts": [
+        "(a+b)³",
+        "(a+b)(a²−ab+b²)",
+        "(a+b)(a²+ab+b²)",
+        "(a+b)²(a+b)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "a³ − b³ = ?",
+      "opts": [
+        "(a−b)³",
+        "(a−b)(a²+ab+b²)",
+        "(a−b)(a²−ab+b²)",
+        "(a−b)²(a+b)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(2a+3b)² = ?",
+      "opts": [
+        "4a²+9b²",
+        "4a²+6ab+9b²",
+        "4a²+12ab+9b²",
+        "4a+9b"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(3x−2y)² = ?",
+      "opts": [
+        "9x²+4y²",
+        "9x²−12xy+4y²",
+        "9x²−6xy+4y²",
+        "9x²+12xy+4y²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(x+2)(x+5) = ?",
+      "opts": [
+        "x²+7x+10",
+        "x²+7x−10",
+        "x²−7x+10",
+        "x²+10x+7"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "(x−3)(x+4) = ?",
+      "opts": [
+        "x²+x−12",
+        "x²−x−12",
+        "x²+x+12",
+        "x²−x+12"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "(2x+1)(3x−2) = ?",
+      "opts": [
+        "6x²−x−2",
+        "6x²+x−2",
+        "6x²−x+2",
+        "6x²+x+2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x²−4 ni ko'paytuvchilarga ajrat = ?",
+      "opts": [
+        "(x+4)(x−1)",
+        "(x+2)(x−2)",
+        "(x−4)(x+1)",
+        "(x+2)²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x²−x−6 ni ko'paytuvchilarga ajrat = ?",
+      "opts": [
+        "(x+2)(x−3)",
+        "(x−2)(x+3)",
+        "(x+1)(x−6)",
+        "(x−1)(x+6)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x²+x−12 ni ajrat = ?",
+      "opts": [
+        "(x+3)(x−4)",
+        "(x−3)(x+4)",
+        "(x+2)(x−6)",
+        "(x+6)(x−2)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x³−x = ?",
+      "opts": [
+        "x(x²+1)",
+        "x(x−1)(x+1)",
+        "x²(x−1)",
+        "x(x+1)²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2x²+8x+8 ni ajrat = ?",
+      "opts": [
+        "2(x+2)²",
+        "2(x−2)²",
+        "(2x+4)²",
+        "2(x+4)(x+2)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "log₂ 32 = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "16"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₃ 81 = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₅ 125 = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₁₀ 10000 = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₂(2·8) = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₃(27/9) = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log_a(a²) = ?",
+      "opts": [
+        "1",
+        "2",
+        "a",
+        "a²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log_a(1) = ?",
+      "opts": [
+        "0",
+        "1",
+        "a",
+        "∞"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "ln e³ = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "e"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "log₆ 36 = ?",
+      "opts": [
+        "2",
+        "4",
+        "6",
+        "36"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "2^x = 16 → x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "3^x = 243 → x = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "5^x = 25 → x = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "10^x = 100000 → x = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "4^x = 64 → x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin 0° = ?",
+      "opts": [
+        "−1",
+        "0",
+        "1",
+        "√2/2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin 30° = ?",
+      "opts": [
+        "√3/2",
+        "1/2",
+        "√2/2",
+        "1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin 45° = ?",
+      "opts": [
+        "1/2",
+        "√2/2",
+        "√3/2",
+        "1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin 60° = ?",
+      "opts": [
+        "1/2",
+        "√2/2",
+        "√3/2",
+        "1"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "sin 90° = ?",
+      "opts": [
+        "0",
+        "1/2",
+        "√2/2",
+        "1"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "cos 0° = ?",
+      "opts": [
+        "0",
+        "1/2",
+        "√3/2",
+        "1"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "cos 30° = ?",
+      "opts": [
+        "1/2",
+        "√2/2",
+        "√3/2",
+        "1"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "cos 45° = ?",
+      "opts": [
+        "1/2",
+        "√2/2",
+        "√3/2",
+        "1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cos 60° = ?",
+      "opts": [
+        "1/2",
+        "√2/2",
+        "√3/2",
+        "1"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "cos 90° = ?",
+      "opts": [
+        "0",
+        "1/2",
+        "√2/2",
+        "1"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "tan 0° = ?",
+      "opts": [
+        "0",
+        "1",
+        "√3",
+        "aniqlanmagan"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "tan 30° = ?",
+      "opts": [
+        "1/√3",
+        "1",
+        "√3",
+        "∞"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "tan 45° = ?",
+      "opts": [
+        "0",
+        "1",
+        "√3",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "tan 60° = ?",
+      "opts": [
+        "1/√3",
+        "1",
+        "√3",
+        "∞"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "tan 90° = ?",
+      "opts": [
+        "0",
+        "1",
+        "√3",
+        "aniqlanmagan"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "sin²α + cos²α = ?",
+      "opts": [
+        "0",
+        "1",
+        "sinα",
+        "cosα"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1 + tan²α = ?",
+      "opts": [
+        "sin²α",
+        "cos²α",
+        "1/cos²α",
+        "sec²α"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "1 + cot²α = ?",
+      "opts": [
+        "sin²α",
+        "1/sin²α",
+        "cos²α",
+        "csc²α"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin 2α = ?",
+      "opts": [
+        "2sinα",
+        "2sinα·cosα",
+        "sin²α−cos²α",
+        "sinα+cosα"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cos 2α = cos²α − sin²α = ?",
+      "opts": [
+        "2cos²α−1",
+        "1−2sin²α",
+        "ikkisi ham to'g'ri",
+        "hech biri"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "sin(α+β) = ?",
+      "opts": [
+        "sinα+sinβ",
+        "sinα·cosβ+cosα·sinβ",
+        "sinα·sinβ+cosα·cosβ",
+        "sinα·cosβ−cosα·sinβ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cos(α−β) = ?",
+      "opts": [
+        "cosα·cosβ−sinα·sinβ",
+        "cosα·cosβ+sinα·sinβ",
+        "cosα−cosβ",
+        "sinα·sinβ+cosα·cosβ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin(90°−α) = ?",
+      "opts": [
+        "sinα",
+        "−sinα",
+        "cosα",
+        "−cosα"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "cos(90°−α) = ?",
+      "opts": [
+        "cosα",
+        "sinα",
+        "−cosα",
+        "−sinα"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin(180°−α) = ?",
+      "opts": [
+        "sinα",
+        "−sinα",
+        "cosα",
+        "−cosα"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "cos(180°−α) = ?",
+      "opts": [
+        "cosα",
+        "−cosα",
+        "sinα",
+        "−sinα"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin(−α) = ?",
+      "opts": [
+        "sinα",
+        "−sinα",
+        "cosα",
+        "−cosα"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cos(−α) = ?",
+      "opts": [
+        "−cosα",
+        "cosα",
+        "sinα",
+        "−sinα"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "π radiani = ? gradus",
+      "opts": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "π/2 radiani = ?",
+      "opts": [
+        "45°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "π/4 radiani = ?",
+      "opts": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "π/6 radiani = ?",
+      "opts": [
+        "20°",
+        "30°",
+        "45°",
+        "60°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2π radiani = ?",
+      "opts": [
+        "180°",
+        "270°",
+        "360°",
+        "540°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "60° = ? radian",
+      "opts": [
+        "π/6",
+        "π/4",
+        "π/3",
+        "π/2"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "90° = ? radian",
+      "opts": [
+        "π/4",
+        "π/3",
+        "π/2",
+        "π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "120° = ? radian",
+      "opts": [
+        "π/3",
+        "π/2",
+        "2π/3",
+        "3π/4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Arifmetik progressiya: a₁=2, d=3. a₅ = ?",
+      "opts": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "AP: a₁=5, d=4. a₁₀ = ?",
+      "opts": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "AP: 3, 7, 11, 15, ... → a₆ = ?",
+      "opts": [
+        "21",
+        "23",
+        "25",
+        "27"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "AP: 2, 5, 8, ... → a₁₅ = ?",
+      "opts": [
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "AP: a₁=1, aₙ=31, d=3 → n = ?",
+      "opts": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "AP yig'indi: S = n(a₁+aₙ)/2. a₁=1, a₁₀=19 → S₁₀ = ?",
+      "opts": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "AP yig'indi: a₁=3, d=2, n=5 → S₅ = ?",
+      "opts": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Geometrik progressiya: b₁=2, q=3. b₄ = ?",
+      "opts": [
+        "18",
+        "27",
+        "54",
+        "81"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "GP: b₁=1, q=2. b₆ = ?",
+      "opts": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "GP: 1, 3, 9, 27, ... → b₅ = ?",
+      "opts": [
+        "54",
+        "81",
+        "108",
+        "243"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "GP yig'indi: S = b₁(qⁿ−1)/(q−1). b₁=1, q=2, n=5 → S₅ = ?",
+      "opts": [
+        "29",
+        "31",
+        "33",
+        "35"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "GP yig'indi: b₁=3, q=2, n=4 → S₄ = ?",
+      "opts": [
+        "42",
+        "44",
+        "45",
+        "48"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Cheksiz GP yig'indi: b₁=4, q=1/2 → S∞ = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Cheksiz GP yig'indi: b₁=6, q=1/3 → S∞ = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) = x² − 4x + 3. f(0) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) = x² − 4x + 3. f(3) = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "f(x) = x³ − 3x. f(2) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = 2ˣ. f(3) = ?",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "16"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Parabolaning cho'qqisi y = ax² + bx + c da xᵥ = ?",
+      "opts": [
+        "−b/a",
+        "−b/2a",
+        "b/2a",
+        "b/a"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = x² − 4x + 5. Cho'qqi = ?",
+      "opts": [
+        "(1,2)",
+        "(2,1)",
+        "(2,2)",
+        "(1,1)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = −x² + 2x + 3. Cho'qqi = ?",
+      "opts": [
+        "(1,3)",
+        "(1,4)",
+        "(2,3)",
+        "(2,4)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = x² + 2x − 3. Parabolaning y-o'qi bilan kesishishi = ?",
+      "opts": [
+        "(0,−2)",
+        "(0,−3)",
+        "(0,3)",
+        "(0,2)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Parabolaning x-o'qi bilan kesishishi y = x²−4 → x = ?",
+      "opts": [
+        "±1",
+        "±2",
+        "±3",
+        "±4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Funksiya o'tmas darajasida ko'tariladi: y = x³. f(−2) = ?",
+      "opts": [
+        "−6",
+        "−8",
+        "8",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = |x|. x = −4 → y = ?",
+      "opts": [
+        "−4",
+        "0",
+        "4",
+        "16"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "y = √x. x = 9 → y = ?",
+      "opts": [
+        "3",
+        "4.5",
+        "81",
+        "9"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "y = 1/x. x = 0.5 → y = ?",
+      "opts": [
+        "0.5",
+        "1",
+        "2",
+        "4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Funksiya juft bo'lishi sharti: f(−x) = ?",
+      "opts": [
+        "f(x)",
+        "−f(x)",
+        "0",
+        "1"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Funksiya toq bo'lishi sharti: f(−x) = ?",
+      "opts": [
+        "f(x)",
+        "−f(x)",
+        "0",
+        "1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = x² — juft yoki toqmi?",
+      "opts": [
+        "toq",
+        "juft",
+        "na juft na toq",
+        "ikkisi ham"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = x³ — juft yoki toqmi?",
+      "opts": [
+        "juft",
+        "toq",
+        "na juft na toq",
+        "ikkisi ham"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = sin x — juft yoki toqmi?",
+      "opts": [
+        "juft",
+        "toq",
+        "na juft na toq",
+        "ikkisi ham"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = cos x — juft yoki toqmi?",
+      "opts": [
+        "toq",
+        "juft",
+        "na juft na toq",
+        "ikkisi ham"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Funksiyaning O'sish sohasida f'(x) = ?",
+      "opts": [
+        "< 0",
+        "= 0",
+        "> 0",
+        "≠ 0"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Funksiyaning kamayish sohasida f'(x) = ?",
+      "opts": [
+        "< 0",
+        "= 0",
+        "> 0",
+        "≠ 0"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Uchburchak yuzi (sina qoidasi): S = ½ab·sinC. a=4, b=6, C=30° → S = ?",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sinuslar qoidasi: a/sinA = 2R. a=5, A=30° → R = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Kosinuslar qoidasi: c²=a²+b²−2ab·cosC. a=5, b=7, C=60° → c² = ?",
+      "opts": [
+        "19",
+        "25",
+        "39",
+        "49"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Uchburchak: a=7, b=7, C=60° → c = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Kompleks son z = 3 + 4i → |z| = ?",
+      "opts": [
+        "4",
+        "5",
+        "7",
+        "25"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "i² = ?",
+      "opts": [
+        "1",
+        "−1",
+        "i",
+        "0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "i³ = ?",
+      "opts": [
+        "1",
+        "−1",
+        "i",
+        "−i"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "i⁴ = ?",
+      "opts": [
+        "−1",
+        "0",
+        "1",
+        "i"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(2+3i) + (1−i) = ?",
+      "opts": [
+        "3+2i",
+        "3+4i",
+        "2+3i",
+        "1+2i"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "(3+2i)(1−i) = ?",
+      "opts": [
+        "3+2i",
+        "5−i",
+        "1+5i",
+        "5+i"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Konveks ko'pburchak burchaklari yig'indisi n=7: ?",
+      "opts": [
+        "720°",
+        "810°",
+        "900°",
+        "1080°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Sonlar: 2, 4, 6, 8, 10 → dispersiya = ?",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Sonlar: 1, 2, 3, 4, 5 → o'rta = ?",
+      "opts": [
+        "2",
+        "2.5",
+        "3",
+        "3.5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ehtimollik: bir tanga uchraganda tura tushish ehtimoli = ?",
+      "opts": [
+        "1/3",
+        "1/4",
+        "1/2",
+        "2/3"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Zar otilsa 4 tushish ehtimoli = ?",
+      "opts": [
+        "1/4",
+        "1/5",
+        "1/6",
+        "1/7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ikkita zar otilsa ikkala tomonning yig'indisi 7 bo'lish ehtimoli = ?",
+      "opts": [
+        "1/6",
+        "5/36",
+        "6/36",
+        "7/36"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "C(5,2) = ?",
+      "opts": [
+        "5",
+        "8",
+        "10",
+        "20"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "C(6,3) = ?",
+      "opts": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "C(4,4) = ?",
+      "opts": [
+        "0",
+        "1",
+        "4",
+        "24"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "P(4) = 4! = ?",
+      "opts": [
+        "12",
+        "16",
+        "24",
+        "48"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "A(5,2) = ?",
+      "opts": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ehtimollik: 5 oq, 3 qora sharchadan 1 oq olish ehtimoli = ?",
+      "opts": [
+        "3/8",
+        "5/8",
+        "3/5",
+        "5/3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "C(10,3) = ?",
+      "opts": [
+        "60",
+        "80",
+        "100",
+        "120"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "C(7,2) = ?",
+      "opts": [
+        "14",
+        "21",
+        "28",
+        "35"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Binomial koeffitsient: (a+b)³ da a²b koeffitsienti = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(a+b)⁴ da a²b² koeffitsienti = ?",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Matritsa: A=[[1,2],[3,4]], B=[[5,6],[7,8]] → A+B = ?",
+      "opts": [
+        "[[6,8],[10,12]]",
+        "[[4,4],[4,4]]",
+        "[[5,12],[21,32]]",
+        "[[6,7],[9,11]]"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Matritsa: [[2,0],[0,3]] det = ?",
+      "opts": [
+        "5",
+        "6",
+        "1",
+        "0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Matritsa: [[1,2],[3,4]] det = ?",
+      "opts": [
+        "−4",
+        "−2",
+        "2",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "[[a,b],[c,d]] inversiyasi mavjud sharti = ?",
+      "opts": [
+        "det = 1",
+        "det ≠ 0",
+        "a ≠ 0",
+        "b ≠ c"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "[[1,0],[0,1]] bu nima matritsasi?",
+      "opts": [
+        "nol",
+        "birlik",
+        "diagonal",
+        "simmetrik"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "A² = A bo'lsa bunday matritsa = ?",
+      "opts": [
+        "inversiya",
+        "identitet",
+        "proyeksiya (idempotent)",
+        "skalyar"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "(AB)ᵀ = ?",
+      "opts": [
+        "AᵀBᵀ",
+        "BᵀAᵀ",
+        "Aᵀ+Bᵀ",
+        "(Aᵀ)·(Bᵀ)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Chiziqli tenglama sistemasi: n tenglama, n noma'lum, det(A)≠0 → necha yechim?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "∞"
+      ],
+      "ans": 1
+    }
+  ],
+  "BP": [
+    {
+      "q": "log₂(x) = 5 → x = ?",
+      "opts": [
+        "10",
+        "16",
+        "32",
+        "64"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "log₃(x) = 4 → x = ?",
+      "opts": [
+        "12",
+        "27",
+        "64",
+        "81"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "logₐ(x) = 1/2 → x = ?",
+      "opts": [
+        "a",
+        "√a",
+        "a²",
+        "1/a"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₂(x+1) = 3 → x = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "log₃(2x−1) = 2 → x = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₅(x²) = 4 → x = ?",
+      "opts": [
+        "±5",
+        "±25",
+        "±10",
+        "±50"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "log₂(x) + log₂(4) = 5 → x = ?",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "log₃(x) − log₃(3) = 2 → x = ?",
+      "opts": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "2·log₅(x) = log₅(100) → x = ?",
+      "opts": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₄(x) = log₄(9) / 2 → x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "log₂(32) − log₂(8) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₆(12) + log₆(3) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₃(81/9) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "logₐ(a³) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "a"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "log₁₀(0.001) = ?",
+      "opts": [
+        "−4",
+        "−3",
+        "−2",
+        "−1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2ˣ⁺¹ = 8 → x = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3ˣ⁻¹ = 27 → x = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "4ˣ = 2 → x = ?",
+      "opts": [
+        "1/4",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "e^(2x) = e⁶ → x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "ln(x) = 2 → x = ?",
+      "opts": [
+        "2",
+        "e",
+        "e²",
+        "2e"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "3x² − 5x + 2 = 0 ildizlari = ?",
+      "opts": [
+        "1 va 2/3",
+        "1 va 3/2",
+        "2/3 va 1",
+        "2/3 va 3/2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "2x² + 7x + 3 = 0 ildizlari = ?",
+      "opts": [
+        "−3 va −1/2",
+        "3 va 1/2",
+        "−3 va 1/2",
+        "−1/2 va −3"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x² − 5x + 6 = 0. x₁² + x₂² = ?",
+      "opts": [
+        "11",
+        "13",
+        "17",
+        "25"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x₁+x₂=5, x₁·x₂=4 → (x₁−x₂)² = ?",
+      "opts": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "x² − (m+1)x + m = 0 ildizlardan biri x=1 bo'lsa m = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x² + px + 12 = 0. Ildizlardan biri 3 bo'lsa ikkinchisi = ?",
+      "opts": [
+        "3",
+        "4",
+        "−4",
+        "−3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x²−kx+9=0 ildizlari teng bo'lsa k = ?",
+      "opts": [
+        "3",
+        "4",
+        "6",
+        "9"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "2x²−3x+1≥0 yechim = ?",
+      "opts": [
+        "[1/2, 1]",
+        "(−∞,1/2]∪[1,+∞)",
+        "(1/2,1)",
+        "(0,1)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "x²−4x+3<0 yechim = ?",
+      "opts": [
+        "(1,3)",
+        "(−∞,1)∪(3,+∞)",
+        "[1,3]",
+        "(0,3)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "x²−9>0 yechim = ?",
+      "opts": [
+        "(−3,3)",
+        "(−∞,−3)∪(3,+∞)",
+        "[−3,3]",
+        "(0,3)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sinα = 3/5, α ∈ [0°,90°] → cosα = ?",
+      "opts": [
+        "3/4",
+        "4/5",
+        "5/4",
+        "3/5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cosα = 5/13, α ∈ [0°,90°] → sinα = ?",
+      "opts": [
+        "10/13",
+        "11/13",
+        "12/13",
+        "13/5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "tanα = 3/4 → sinα = ? (I chorak)",
+      "opts": [
+        "3/5",
+        "4/5",
+        "3/4",
+        "5/3"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "sinα + cosα = 1 → sin2α = ?",
+      "opts": [
+        "0",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "sin²α − cos²α = −cos2α. Bu to'g'rimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat ba'zan",
+        "Aniqlab bo'lmaydi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sin15° = sin(45°−30°) = ?",
+      "opts": [
+        "(√6−√2)/4",
+        "(√6+√2)/4",
+        "(√2−√6)/4",
+        "√3/2−1/2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "tan(α+β) = (tanα+tanβ)/(1−tanα·tanβ). Bu formulani qayerda ishlatsak?",
+      "opts": [
+        "faqat o'tkir burchaklar",
+        "har qanday burchak (aniqlanganida)",
+        "faqat 45°",
+        "faqat 90°"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2sinα·cosα = ?",
+      "opts": [
+        "cos2α",
+        "sin2α",
+        "sin²α",
+        "cos²α"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cos2α = 1 − 2sin²α. Bu ifodada α = 30° → cos2α = ?",
+      "opts": [
+        "1/4",
+        "1/2",
+        "√3/2",
+        "3/4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "tanα · cotα = ?",
+      "opts": [
+        "0",
+        "1",
+        "sin2α",
+        "cos2α"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "sinα/cosα = ?",
+      "opts": [
+        "cotα",
+        "tanα",
+        "1",
+        "−1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cosα/sinα = ?",
+      "opts": [
+        "tanα",
+        "cotα",
+        "sin2α",
+        "1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "secα = ?",
+      "opts": [
+        "1/sinα",
+        "1/cosα",
+        "sinα/cosα",
+        "cosα/sinα"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "cscα = ?",
+      "opts": [
+        "1/sinα",
+        "1/cosα",
+        "tanα",
+        "cotα"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "sinα = 0 → α = ? (asosiy yechim)",
+      "opts": [
+        "π/4",
+        "π/2",
+        "π·n",
+        "π/6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "cosα = 0 → α = ? (asosiy)",
+      "opts": [
+        "πn",
+        "π/2+πn",
+        "π/4+πn",
+        "2πn"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "tanα = 1 → α = ? (asosiy)",
+      "opts": [
+        "π/6+πn",
+        "π/4+πn",
+        "π/3+πn",
+        "π/2+πn"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2sinα − 1 = 0 → sinα = ? → α = ?",
+      "opts": [
+        "π/4+2πn",
+        "π/6+2πn",
+        "π/6+2πn va 5π/6+2πn",
+        "π/3+πn"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "AP: a₁=7, a₈=28 → d = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "AP: a₃=11, a₇=27 → a₁ = ?",
+      "opts": [
+        "1",
+        "3",
+        "5",
+        "7"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "AP: aₙ=3n+2 → a₁₀ = ?",
+      "opts": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "AP yig'indisi: S₁₀=100, a₁=1 → a₁₀ = ?",
+      "opts": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "AP: a₁=2, Sₙ=n² + n → d = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "GP: b₁=3, q=2, b₆ = ?",
+      "opts": [
+        "48",
+        "72",
+        "96",
+        "128"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "GP: b₂=6, b₅=48 → q = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "GP: b₁·b₂·b₃ = 64, q = 2 → b₂ = ?",
+      "opts": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "GP: b₁=8, b₄=1 → q = ?",
+      "opts": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Cheksiz GP: S∞ = b₁/(1−q). b₁=9, q=1/3 → S∞ = ?",
+      "opts": [
+        "12",
+        "13.5",
+        "14",
+        "15"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Cheksiz GP: S∞=12, b₁=4 → q = ?",
+      "opts": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "3/4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "0.999... = ?",
+      "opts": [
+        "0.9",
+        "1",
+        "∞",
+        "aniqlanmagan"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1/3 + 1/9 + 1/27 + ... (cheksiz GP) = ?",
+      "opts": [
+        "1/2",
+        "1",
+        "3/2",
+        "2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Kombinatsiya: C(n,1) = ?",
+      "opts": [
+        "1",
+        "n",
+        "n!",
+        "n−1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "C(n,n−1) = ?",
+      "opts": [
+        "1",
+        "n",
+        "n!",
+        "n−1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Binomial teorema: (1+x)ⁿ da x koeffitsienti = ?",
+      "opts": [
+        "C(n,0)",
+        "C(n,1)",
+        "C(n,2)",
+        "n!"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(x+1)⁵ da x³ koeffitsienti = ?",
+      "opts": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(2x+1)⁴ da x² koeffitsienti = ?",
+      "opts": [
+        "16",
+        "24",
+        "32",
+        "48"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "(a+b)⁶ da a³b³ koeffitsienti = ?",
+      "opts": [
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ehtimollik: 3 tanga uloqtirilsa kamida 2 ta tura tushish ehtimoli = ?",
+      "opts": [
+        "1/4",
+        "3/8",
+        "1/2",
+        "5/8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Zar 2 marta otilsa, yig'indi 8 tushish ehtimoli = ?",
+      "opts": [
+        "3/36",
+        "4/36",
+        "5/36",
+        "6/36"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Qutidan 3 qizil va 5 yashil shardan 2 tasi tanlanadi. Ikkisi ham qizil tushish ehtimoli = ?",
+      "opts": [
+        "1/14",
+        "3/28",
+        "6/28",
+        "3/14"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Ikkita mustaqil hodisa: P(A)=0.4, P(B)=0.5 → P(A∩B) = ?",
+      "opts": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "P(A∪B) = P(A)+P(B)−P(A∩B). P(A)=0.5, P(B)=0.4, P(A∩B)=0.2 → P(A∪B) = ?",
+      "opts": [
+        "0.6",
+        "0.7",
+        "0.8",
+        "0.9"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Shartli ehtimollik: P(A|B) = P(A∩B)/P(B). P(A∩B)=0.15, P(B)=0.3 → P(A|B) = ?",
+      "opts": [
+        "0.25",
+        "0.5",
+        "0.75",
+        "1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Bayes formulasi: P(H|A) = P(H)·P(A|H)/P(A). Bu qayerda ishlatiladi?",
+      "opts": [
+        "to'g'ridan-to'g'ri ehtimollik",
+        "gipotezani yangilash",
+        "dispersiya",
+        "o'rtacha"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Matematik kutilma: E(X). X= 1,2,3; P=1/3 har biri → E(X) = ?",
+      "opts": [
+        "1",
+        "1.5",
+        "2",
+        "3"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Dispersiya: D(X) = E(X²) − (E(X))². X=1,2,3; P=1/3 → D(X) = ?",
+      "opts": [
+        "2/3",
+        "1",
+        "4/3",
+        "2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Standart og'ish σ = √D(X). D=4 → σ = ?",
+      "opts": [
+        "1",
+        "2",
+        "4",
+        "16"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Normal taqsimlash: μ±σ ichidagi ma'lumot ≈ ?",
+      "opts": [
+        "50%",
+        "68%",
+        "95%",
+        "99.7%"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Normal taqsimlash: μ±2σ ≈ ?",
+      "opts": [
+        "68%",
+        "80%",
+        "90%",
+        "95%"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Koordinatalar: aylana tenglamasi (x−a)²+(y−b)²=r². Markaz (3,−4), r=5 → tenglama?",
+      "opts": [
+        "(x−3)²+(y+4)²=25",
+        "(x+3)²+(y−4)²=25",
+        "(x−3)²+(y−4)²=25",
+        "(x+3)²+(y+4)²=25"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Aylana (x−1)²+(y+2)²=16. Radius = ?",
+      "opts": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Aylana x²+y²=9. Markaz va radius = ?",
+      "opts": [
+        "(1,1), r=3",
+        "(0,0), r=3",
+        "(0,0), r=9",
+        "(3,3), r=3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Parabola y=x²−6x+5. X-o'qi bilan kesishish = ?",
+      "opts": [
+        "(1,0) va (3,0)",
+        "(1,0) va (5,0)",
+        "(2,0) va (4,0)",
+        "(0,1) va (0,5)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Parabola y=−x²+4. Cho'qqi = ?",
+      "opts": [
+        "(0,2)",
+        "(0,4)",
+        "(0,−4)",
+        "(0,0)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ellips x²/9 + y²/4 = 1. a = ?, b = ?",
+      "opts": [
+        "a=3, b=2",
+        "a=9, b=4",
+        "a=2, b=3",
+        "a=6, b=4"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Giperbola x²/4 − y²/9 = 1. Asimptotalar = ?",
+      "opts": [
+        "y=±2x/3",
+        "y=±3x/2",
+        "y=±2x",
+        "y=±3x"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "To'g'ri chiziq y = kx + b da k > 0 bo'lsa chiziq = ?",
+      "opts": [
+        "kamayadi",
+        "ortadi",
+        "gorizontal",
+        "vertikal"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = kx + b. k = 0 va b ≠ 0 → bu nima?",
+      "opts": [
+        "gorizontal to'g'ri chiziq",
+        "vertikal",
+        "parabola",
+        "aylana"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "y = 2x + 1 va y = −x + 4. Kesishish nuqtasi = ?",
+      "opts": [
+        "(0,1)",
+        "(1,3)",
+        "(1,2)",
+        "(2,3)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = x² va y = x. Kesishish nuqtalari = ?",
+      "opts": [
+        "(0,0) faqat",
+        "(1,1) faqat",
+        "(0,0) va (1,1)",
+        "hech qanday"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "y = x² va y = 4. Kesishish nuqtalari = ?",
+      "opts": [
+        "(2,4) va (−2,4)",
+        "(4,2)",
+        "(0,4)",
+        "kesishmaydi"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "y = 2x + b. (3,7) dan o'tsa b = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y = kx − 1. (2,3) dan o'tsa k = ?",
+      "opts": [
+        "1",
+        "1.5",
+        "2",
+        "2.5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ikki to'g'ri chiziq y = 2x+1 va y = 2x−3. Bu chiziqlar?",
+      "opts": [
+        "parallel",
+        "perpendicular",
+        "kesishadi",
+        "bir xil"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "y = 3x+2 va y = −x/3+1. Bu chiziqlar?",
+      "opts": [
+        "parallel",
+        "perpendicular",
+        "kesishadi oddiy",
+        "bir xil"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Vektorlar a=(2,3) va b=(1,4). a+b = ?",
+      "opts": [
+        "(3,7)",
+        "(2,12)",
+        "(1,1)",
+        "(4,5)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Vektorlar a=(5,2) va b=(3,1). a−b = ?",
+      "opts": [
+        "(1,2)",
+        "(2,1)",
+        "(8,3)",
+        "(2,3)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "|a| = ?, a=(3,4).",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "25"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Skalyar ko'paytma: a·b, a=(1,2), b=(3,4) = ?",
+      "opts": [
+        "5",
+        "8",
+        "10",
+        "11"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "a=(1,0) va b=(0,1). Ular orasidagi burchak = ?",
+      "opts": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "a·b = |a||b|cosθ. a=(3,0), b=(0,4) → a·b = ?",
+      "opts": [
+        "0",
+        "12",
+        "7",
+        "10"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "a=(1,1) va b=(−1,1). cosθ = ?",
+      "opts": [
+        "0",
+        "1/2",
+        "√2/2",
+        "1"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Vektor a=(2,−3) va vektor b=(4,6). Ular parallel sharti = ?",
+      "opts": [
+        "2·6 = 4·(−3): 12=−12 (Yo'q)",
+        "2·6 = (−3)·4: 12=−12 (Ha parallel)",
+        "a·b = 0",
+        "a = b"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Matritsa: A=[[2,1],[4,3]]. det(A) = ?",
+      "opts": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Matritsa: A=[[3,2],[1,4]]. det(A) = ?",
+      "opts": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "2×2 matritsa inversiyasi: [[a,b],[c,d]]⁻¹ = (1/det)·[[d,−b],[−c,a]]. [[2,1],[3,2]]⁻¹ det = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Kramer qoidasi: x = Dₓ/D. D=5, Dₓ=10 → x = ?",
+      "opts": [
+        "0.5",
+        "1",
+        "2",
+        "5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Sistema: x+y=6, 2x−y=3 → Cramer x = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sistema: 3x+2y=12, x−y=1 → Cramer y = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Funksiya f(x) = xⁿ → f'(x) = ?",
+      "opts": [
+        "xⁿ",
+        "nxⁿ⁻¹",
+        "nxⁿ",
+        "(n+1)xⁿ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = 5x³ → f'(x) = ?",
+      "opts": [
+        "5x²",
+        "10x²",
+        "15x²",
+        "20x²"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) = x⁴ − 3x² + 1 → f'(x) = ?",
+      "opts": [
+        "4x³−6x",
+        "4x³−3x",
+        "4x³+6x",
+        "x³−6x"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "f(x) = sin(3x) → f'(x) = ?",
+      "opts": [
+        "sin3",
+        "cos3x",
+        "3cos3x",
+        "−3cos3x"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) = eˣ → f'(x) = ?",
+      "opts": [
+        "eˣ⁻¹",
+        "eˣ",
+        "xeˣ",
+        "0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = ln(2x) → f'(x) = ?",
+      "opts": [
+        "1/2x",
+        "1/x",
+        "2/x",
+        "2/2x"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Mahsulot qoidasi: (uv)' = ?",
+      "opts": [
+        "u'v'",
+        "u'v+uv'",
+        "u'v−uv'",
+        "uv'/u'v"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Boʻlish qoidasi: (u/v)' = ?",
+      "opts": [
+        "u'/v'",
+        "(u'v−uv')/v²",
+        "(u'v+uv')/v²",
+        "u'v/uv'"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Zanjir qoidasi: (f(g(x)))' = ?",
+      "opts": [
+        "f'(g(x))",
+        "g'(x)",
+        "f'(g(x))·g'(x)",
+        "f'(x)·g'(x)"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Ekstremal nuqtada: f'(x₀) = ?",
+      "opts": [
+        "f(x₀)",
+        "1",
+        "0",
+        "∞"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f''(x₀) > 0 → x₀ lokal ...?",
+      "opts": [
+        "maksimum",
+        "minimum",
+        "infleksiya",
+        "asimptota"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f''(x₀) < 0 → x₀ lokal ...?",
+      "opts": [
+        "minimum",
+        "maksimum",
+        "infleksiya",
+        "asimptota"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ x³ dx = ?",
+      "opts": [
+        "3x²+C",
+        "x⁴/4+C",
+        "x³+C",
+        "4x⁴+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ cos x dx = ?",
+      "opts": [
+        "−sin x+C",
+        "sin x+C",
+        "cos x+C",
+        "−cos x+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ eˣ dx = ?",
+      "opts": [
+        "xeˣ+C",
+        "eˣ+C",
+        "eˣ⁻¹+C",
+        "1/eˣ+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫₀¹ x² dx = ?",
+      "opts": [
+        "1/4",
+        "1/3",
+        "1/2",
+        "1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫₀π sin x dx = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "∫₀² (2x+1) dx = ?",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Newton-Leibniz: ∫ₐᵇ f dx = F(b)−F(a). ∫₁³ 2x dx = ?",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "∫ 1/(x²+1) dx = ?",
+      "opts": [
+        "ln(x²+1)+C",
+        "arctan x+C",
+        "1/(x²+1)+C",
+        "arcsin x+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ 1/x dx (x>0) = ?",
+      "opts": [
+        "1/x²+C",
+        "ln x+C",
+        "x+C",
+        "−1/x+C"
+      ],
+      "ans": 1
+    }
+  ],
+  "A": [
+    {
+      "q": "Limit: lim(x→2) (x²−4)/(x−2) = ?",
+      "opts": [
+        "0",
+        "2",
+        "4",
+        "8"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Limit: lim(x→0) sin(x)/x = ?",
+      "opts": [
+        "0",
+        "1",
+        "∞",
+        "−1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Limit: lim(x→∞) (3x²+1)/(x²+2) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "∞"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Limit: lim(x→∞) 1/x = ?",
+      "opts": [
+        "0",
+        "1",
+        "∞",
+        "−1"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Limit: lim(x→0) (eˣ−1)/x = ?",
+      "opts": [
+        "0",
+        "1",
+        "e",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Limit: lim(x→0) (1+x)^(1/x) = ?",
+      "opts": [
+        "1",
+        "2",
+        "e",
+        "∞"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Limit: lim(x→1) (x²−1)/(x−1) = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Limit: lim(x→∞) n/eⁿ = ?",
+      "opts": [
+        "0",
+        "1",
+        "∞",
+        "e"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "L'Hôpital: lim(x→0) sinx/x = ? (L'Hopital bilan)",
+      "opts": [
+        "0",
+        "1",
+        "π",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "L'Hôpital: lim(x→∞) x/eˣ = ?",
+      "opts": [
+        "0",
+        "1",
+        "∞",
+        "e"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "L'Hôpital: lim(x→0) (1−cosx)/x² = ?",
+      "opts": [
+        "0",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "L'Hôpital: lim(x→0) tanx/x = ?",
+      "opts": [
+        "0",
+        "1",
+        "π",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = x⁵ − 3x³ + 2x → f'(x) = ?",
+      "opts": [
+        "5x⁴−9x²+2",
+        "5x⁴−3x²+2",
+        "5x⁴−6x+2",
+        "x⁴−3x²"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "f(x) = sin(x²) → f'(x) = ?",
+      "opts": [
+        "cos(x²)",
+        "2x·cos(x²)",
+        "2cos(x²)",
+        "x·cos(x)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = ln(x³) → f'(x) = ?",
+      "opts": [
+        "1/x",
+        "3/x",
+        "3x",
+        "3ln x"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = eˢⁱⁿˣ → f'(x) = ?",
+      "opts": [
+        "eˢⁱⁿˣ",
+        "cosx·eˢⁱⁿˣ",
+        "sinx·eˢⁱⁿˣ",
+        "eˢⁱⁿˣ+cosx"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = x·sinx → f'(x) = ?",
+      "opts": [
+        "sinx",
+        "xcosx",
+        "sinx+xcosx",
+        "cosx"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) = x/sinx → f'(x) = ?",
+      "opts": [
+        "(sinx−xcosx)/sin²x",
+        "(sinx+xcosx)/sin²x",
+        "x/cosx",
+        "cosx/sinx"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "f(x) = (x²+1)³ → f'(x) = ?",
+      "opts": [
+        "6x(x²+1)",
+        "3(x²+1)²",
+        "6x(x²+1)²",
+        "3(x²+1)"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) = arctan x → f'(x) = ?",
+      "opts": [
+        "1/(1+x²)",
+        "1/√(1−x²)",
+        "1/(1−x²)",
+        "arctan x"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "f(x) = arcsin x → f'(x) = ?",
+      "opts": [
+        "1/(1+x²)",
+        "1/√(1−x²)",
+        "1/(1−x²)",
+        "−1/√(1−x²)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = xˣ → f'(x) = ? (loglar yordamida)",
+      "opts": [
+        "xxˣ⁻¹",
+        "xˣ(1+lnx)",
+        "xˣ·lnx",
+        "xˣ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f(x) = √(x²+1) → f'(x) = ?",
+      "opts": [
+        "1/√(x²+1)",
+        "x/√(x²+1)",
+        "2x/√(x²+1)",
+        "x/(x²+1)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ikkinchi hosila: f(x)=x³ → f''(x) = ?",
+      "opts": [
+        "3x",
+        "3x²",
+        "6x",
+        "6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "f(x) = sin x → f''(x) = ?",
+      "opts": [
+        "cos x",
+        "−cos x",
+        "sin x",
+        "−sin x"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "f(x) = eˣ → f⁽ⁿ⁾(x) = ?",
+      "opts": [
+        "neˣ",
+        "eˣ",
+        "xeˣ",
+        "n!eˣ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "f'(x)>0 va f''(x)>0 bo'lsa funksiya = ?",
+      "opts": [
+        "kamayadi, qavariq",
+        "ortadi, qavariq",
+        "kamayadi, botiq",
+        "ortadi, botiq"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Infleksiya nuqtasida f''(x) = ?",
+      "opts": [
+        "1",
+        "0",
+        "−1",
+        "f'(x)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ x·eˣ dx = ? (qisma integrallanma)",
+      "opts": [
+        "xeˣ+eˣ+C",
+        "xeˣ−eˣ+C",
+        "eˣ+C",
+        "x²eˣ/2+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ x·sinx dx = ? (qisma integrallanma)",
+      "opts": [
+        "xcosx+sinx+C",
+        "−xcosx+sinx+C",
+        "sinx−xcosx+C",
+        "xsinx+cosx+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ ln x dx = ?",
+      "opts": [
+        "1/x+C",
+        "x·ln x+C",
+        "x·ln x−x+C",
+        "x+ln x+C"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "∫ sin²x dx = ?",
+      "opts": [
+        "−sin2x/4+x/2+C",
+        "x/2−sin2x/4+C",
+        "sin x+C",
+        "−sin x+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ 1/(x²−1) dx = ?",
+      "opts": [
+        "arctan x+C",
+        "½ln|(x−1)/(x+1)|+C",
+        "ln|x²−1|+C",
+        "½ln|(x+1)/(x−1)|+C"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫ xⁿeˣ dx qisma integrallansa n marta = ?",
+      "opts": [
+        "polynom·eˣ+C",
+        "eˣ+C",
+        "xⁿ⁺¹/(n+1)+C",
+        "n·eˣ+C"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "∫₀¹ x·eˣ dx = ?",
+      "opts": [
+        "e−1",
+        "1",
+        "e",
+        "e+1"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "∫₀^(π/2) sin x dx = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "π/2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "∫₀^(π/2) cos²x dx = ?",
+      "opts": [
+        "π/4",
+        "π/2",
+        "π",
+        "1"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Ikki funksiya orasidagi yuza: y₁=x², y₂=x. S = ?",
+      "opts": [
+        "1/6",
+        "1/4",
+        "1/3",
+        "1/2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "y=sinx va y=0 orasidagi yuza [0,π] = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "y=x² va x-o'qi [0,2] orasidagi yuza = ?",
+      "opts": [
+        "4/3",
+        "8/3",
+        "4",
+        "8"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Aylanish jismi hajmi: V=π∫ y² dx. y=√x, [0,4] → V = ?",
+      "opts": [
+        "4π",
+        "8π",
+        "16π",
+        "32π"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "V=π∫₀¹ x⁴ dx (y=x² ni x-o'qi atrofida) → V = ?",
+      "opts": [
+        "π/3",
+        "π/4",
+        "π/5",
+        "π/6"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Differensial tenglama: y' = y → umumiy yechim = ?",
+      "opts": [
+        "y=Cx",
+        "y=Ceˣ",
+        "y=C+x",
+        "y=Ce⁻ˣ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y' = 2x → y = ?",
+      "opts": [
+        "x²+C",
+        "2x+C",
+        "x²/2+C",
+        "2x²+C"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "y' = ky. k=3 → y = ?",
+      "opts": [
+        "3x+C",
+        "e³ˣ+C",
+        "Ce³ˣ",
+        "3Ceˣ"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "y'' − y = 0 → umumiy yechim = ?",
+      "opts": [
+        "C₁eˣ+C₂e⁻ˣ",
+        "C₁cosX+C₂sinx",
+        "C₁x+C₂",
+        "Ceˣ"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "y'' + y = 0 → umumiy yechim = ?",
+      "opts": [
+        "C₁eˣ+C₂e⁻ˣ",
+        "C₁cosx+C₂sinx",
+        "C₁x+C₂",
+        "Ce⁻ˣ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Berilgan chiziqiy DT: y' + P(x)y = Q(x). Bu nima?",
+      "opts": [
+        "Bernulli",
+        "birinchi tartibli chiziqli DT",
+        "ikkinchi tartibli",
+        "Riccati"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Matritsa rangi (rank) nima?",
+      "opts": [
+        "determinant",
+        "chiziqli mustaqil satrlar maksimal soni",
+        "element soni",
+        "izi (trace)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Matritsa: A=[[1,2,3],[4,5,6],[7,8,9]] → rank = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Xususiy qiymat (eigenvalue): Av = λv. A=[[2,0],[0,3]] → λ qiymatlari = ?",
+      "opts": [
+        "1 va 2",
+        "2 va 3",
+        "0 va 1",
+        "3 va 5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "A=[[1,1],[0,1]] → eigenvalue = ?",
+      "opts": [
+        "0 va 1",
+        "1 va 1",
+        "1 va 2",
+        "0 va 2"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Simmetrik matritsaning eigenvalue lari = ?",
+      "opts": [
+        "kompleks",
+        "haqiqiy",
+        "imaginar",
+        "nol"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Izi (trace) = eigenvaluelar yig'indisi = ? [[3,1],[1,3]] uchun eigenvalualar = ?",
+      "opts": [
+        "2 va 4",
+        "1 va 3",
+        "3 va 3",
+        "4 va 2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Gram-Schmidt jarayoni nima uchun?",
+      "opts": [
+        "determinant hisoblash",
+        "ortogonal baza hosil qilish",
+        "rank topish",
+        "eigenvalue topish"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ortogonal proyeksiya: projᵥu = (u·v/|v|²)v. u=(1,1), v=(1,0) → proj = ?",
+      "opts": [
+        "(0,1)",
+        "(1,0)",
+        "(1,1)",
+        "(0,0)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "3D da ikki vektor kross ko'paytmasi a×b yo'nalishi = ?",
+      "opts": [
+        "a ga parallel",
+        "b ga parallel",
+        "a va b ga perpendicular",
+        "a+b"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "a×b = |a||b|sinθ·n̂. |a|=3, |b|=4, θ=30° → |a×b| = ?",
+      "opts": [
+        "6",
+        "8",
+        "12",
+        "24"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Normal taqsimlash: Z = (X−μ)/σ. Bu nima?",
+      "opts": [
+        "standardizatsiya",
+        "normallash",
+        "dispersiya",
+        "kutilma"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "X ~ N(5, 4). μ = ?, σ² = ?",
+      "opts": [
+        "μ=5, σ²=4",
+        "μ=4, σ²=5",
+        "μ=5, σ²=2",
+        "μ=4, σ²=2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Poisson taqsimlash: P(X=k) = λᵏe⁻λ/k!. λ=2, k=3 → P = ?",
+      "opts": [
+        "4e⁻²/3",
+        "8e⁻²/6",
+        "e⁻²/2",
+        "2e⁻²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Binomial taqsimlash: P(X=k) = C(n,k)pᵏ(1−p)ⁿ⁻ᵏ. n=5, k=2, p=0.5 → P = ?",
+      "opts": [
+        "5/16",
+        "10/32",
+        "5/32",
+        "10/16"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "E(aX+b) = ?",
+      "opts": [
+        "aE(X)",
+        "aE(X)+b",
+        "E(X)+b",
+        "a+E(X)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "D(aX+b) = ?",
+      "opts": [
+        "aD(X)",
+        "a²D(X)",
+        "a²D(X)+b",
+        "aD(X)+b²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Cov(X,Y) = E(XY) − E(X)·E(Y). X va Y mustaqil bo'lsa Cov = ?",
+      "opts": [
+        "1",
+        "0",
+        "−1",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Korrelyatsiya koeffitsienti ρ = Cov(X,Y)/(σₓ·σᵧ). |ρ| ≤ ?",
+      "opts": [
+        "0",
+        "0.5",
+        "1",
+        "∞"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Katta sonlar qonuni: n → ∞ da namuna o'rtachasi → ?",
+      "opts": [
+        "moda",
+        "median",
+        "matematik kutilma",
+        "dispersiya"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Markaziy chegaraviy teorema: n → ∞ da namuna o'rtachasi taqsimoti ≈ ?",
+      "opts": [
+        "Poisson",
+        "Geometrik",
+        "Normal",
+        "Uniform"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Chebyshev tengsizligi: P(|X−μ| ≥ kσ) ≤ ?",
+      "opts": [
+        "1/k",
+        "1/k²",
+        "k",
+        "k²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "t-test nima uchun ishlatiladi?",
+      "opts": [
+        "ikki o'rtachalarni taqqoslash",
+        "dispersiya hisoblash",
+        "korrelyatsiya",
+        "taqsimlash"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "χ²-test nima uchun?",
+      "opts": [
+        "o'rtachalarni taqqoslash",
+        "kategorik ma'lumotlar uchun bog'liqlik testi",
+        "korrelyatsiya",
+        "normal taqsimlash"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "p-qiymat nima?",
+      "opts": [
+        "ehtimollik",
+        "H₀ to'g'ri bo'lsa, kuzatilgan natija yoki undan ekstremal bo'lish ehtimoli",
+        "dispersiya",
+        "korrelyatsiya koeffitsienti"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Analitik geometriya: to'g'ri chiziq Ax+By+C=0. (2,3) nuqtadan masofasi = ?",
+      "opts": [
+        "|2A+3B+C|/√(A²+B²)",
+        "|2A+3B+C|/(A+B)",
+        "2A+3B+C",
+        "√(A²+B²)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Nuqtadan (0,0) dan y = 3x − 4 ga masofa = ?",
+      "opts": [
+        "4/√10",
+        "4/√(9+1)",
+        "4/5",
+        "4/√10 = 4/√10"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Ikki to'g'ri chiziq: A₁x+B₁y+C₁=0 va A₂x+B₂y+C₂=0 parallel sharti = ?",
+      "opts": [
+        "A₁/A₂=B₁/B₂≠C₁/C₂",
+        "A₁=A₂",
+        "B₁=B₂",
+        "A₁B₂=A₂B₁≠0"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Ellips x²/a² + y²/b² = 1. Fokuslari joylashishi (a>b): ?",
+      "opts": [
+        "(0,±c)",
+        "(±c,0)",
+        "(±a,0)",
+        "(0,±a)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ellips x²/25 + y²/9 = 1. c = ? (c²=a²−b²)",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Giperbola x²/a² − y²/b² = 1. Asimptotalar qiyaligi = ?",
+      "opts": [
+        "±a/b",
+        "±b/a",
+        "±a",
+        "±b"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Parabolaning direttrissi y² = 4px uchun = ?",
+      "opts": [
+        "x = p",
+        "x = −p",
+        "y = p",
+        "y = −p"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "y² = 4px. Fokus joylashishi = ?",
+      "opts": [
+        "(p,0)",
+        "(0,p)",
+        "(−p,0)",
+        "(0,−p)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Sferanın tenglamasi (x−a)²+(y−b)²+(z−c)²=r². Markaz (1,2,3), r=4 → r² = ?",
+      "opts": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Tekislik tenglamasi: Ax+By+Cz+D=0. Normalvektor = ?",
+      "opts": [
+        "(A,B,C)",
+        "(A,B)",
+        "(B,C)",
+        "(C,D)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Ikkita tekislik orasidagi burchak: n₁·n₂ = |n₁||n₂|cosα. Bu formula = ?",
+      "opts": [
+        "Euklid",
+        "dot product formula",
+        "cross product",
+        "skalyar proyeksiya"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "To'g'ri chiziq r = r₀ + tv parametrik tenglamasida t nima?",
+      "opts": [
+        "masofa",
+        "yo'nalish",
+        "parametr",
+        "koordinata"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "3D tekislikka perpendikulyar bo'lgan normal vektor. Tekislik: 2x+3y−z=5 → n = ?",
+      "opts": [
+        "(2,3,−1)",
+        "(2,3,1)",
+        "(3,2,−1)",
+        "(5,3,2)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Yuz integral ∬ dA = ? (hudud yuzasi turli formula orqali)",
+      "opts": [
+        "perimetr",
+        "yuza",
+        "hajm",
+        "uzunlik"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Qo'shaloq integral ∬_R 1 dA = ? (R → a×b to'g'ri to'rtburchak)",
+      "opts": [
+        "a",
+        "b",
+        "a+b",
+        "a·b"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "Fubini teoremasi: ∬f(x,y)dA = ?",
+      "opts": [
+        "∫(∫f dx)dy",
+        "∫f dx + ∫f dy",
+        "∫∫f dxdy = ∫∫f dydx (ixtiyoriy tartib)",
+        "∫f(x)dx·∫f(y)dy"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Qutbli koordinatalar: x = rcosθ, y = rsinθ. r² = ?",
+      "opts": [
+        "x+y",
+        "x²+y",
+        "x²+y²",
+        "(x+y)²"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Qutbli koordinatalar Jacobian = ?",
+      "opts": [
+        "1",
+        "r",
+        "r²",
+        "rθ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Vektor maydoni: F = (P,Q). Diverjens div F = ?",
+      "opts": [
+        "∂P/∂x + ∂Q/∂y",
+        "∂P/∂y − ∂Q/∂x",
+        "∂P/∂y + ∂Q/∂x",
+        "P+Q"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Rotor (curl): F=(P,Q,R) uchun rot F = ?",
+      "opts": [
+        "div F",
+        "∇×F",
+        "∇·F",
+        "∇F"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Green teoremasi: ∮_C (P dx + Q dy) = ∬_D ?(∂Q/∂x − ∂P/∂y) dA",
+      "opts": [
+        "∂Q/∂x + ∂P/∂y",
+        "∂Q/∂x − ∂P/∂y",
+        "Q−P",
+        "P+Q"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Chiziq integral: ∫_C F·dr. F=(1,0), C: (0,0) dan (1,0) ga → ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Potensial funksiya: F = ∇φ bo'lsa F = ?",
+      "opts": [
+        "rotor maydon",
+        "konservativ maydon",
+        "diverjent maydon",
+        "har qanday maydon"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Fourier qatori: f(x) = a₀/2 + Σ(aₙcos(nx)+bₙsin(nx)). aₙ = ?",
+      "opts": [
+        "(1/π)∫f(x)cos(nx)dx",
+        "∫f(x)dx",
+        "f(n)",
+        "f'(n)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Fourier qatori: toq funksiya uchun aₙ = ?",
+      "opts": [
+        "0",
+        "bₙ",
+        "2bₙ",
+        "πbₙ"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Fourier qatori: juft funksiya uchun bₙ = ?",
+      "opts": [
+        "aₙ",
+        "0",
+        "2aₙ",
+        "−aₙ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Parseval tenglamasi: ∫|f(x)|²dx bog'liq: ?",
+      "opts": [
+        "F(ω)",
+        "|F(ω)|²",
+        "Fourier koeffitsientlari kvadratlari yig'indisi",
+        "Fourier transformatsiyasi"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Laplace almashinishi L{tⁿ} = ?",
+      "opts": [
+        "n!/sⁿ",
+        "n!/sⁿ⁺¹",
+        "n!/sⁿ⁻¹",
+        "n·sⁿ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "L{sin(at)} = ?",
+      "opts": [
+        "a/(s²+a²)",
+        "s/(s²+a²)",
+        "a/(s²−a²)",
+        "1/(s+a)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "L{cos(at)} = ?",
+      "opts": [
+        "a/(s²+a²)",
+        "s/(s²+a²)",
+        "1/(s+a)",
+        "a/(s−a)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Laplace inversiyasi: L⁻¹{1/(s+a)} = ?",
+      "opts": [
+        "eᵃᵗ",
+        "e⁻ᵃᵗ",
+        "sin(at)",
+        "cos(at)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "L{f'(t)} = ?",
+      "opts": [
+        "sF(s)",
+        "sF(s)−f(0)",
+        "F(s)/s",
+        "F'(s)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Z-almashinish: Z{aⁿ} = ?",
+      "opts": [
+        "z/(z−a)",
+        "a/(z−a)",
+        "z/(z+a)",
+        "a/(z+a)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Diskret matematik: grafda Euler yo'li mavjud sharti = ?",
+      "opts": [
+        "barcha cho'qqilar juft darajali",
+        "aynan 2 ta toq darajali cho'qqi",
+        "biror Hamiltonian tsikl",
+        "graf birlashgan"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Hamiltonian yo'l: graf = Kₙ uchun n = ? dan boshlab mavjud",
+      "opts": [
+        "n≥2",
+        "n≥3",
+        "n≥1",
+        "n≥4"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Grafning xromatik soni χ: K₄ uchun = ?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Bipartit graf: xromatik soni = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Daraxt (tree): n ta cho'qqi uchun qirralar soni = ?",
+      "opts": [
+        "n",
+        "n−1",
+        "n+1",
+        "n²"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "DFS (Depth First Search) murakkabligi: V+E. Bu = ?",
+      "opts": [
+        "O(V)",
+        "O(E)",
+        "O(V+E)",
+        "O(V·E)"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "BFS (Breadth First Search) murakkabligi = ?",
+      "opts": [
+        "O(V)",
+        "O(E)",
+        "O(V+E)",
+        "O(V²)"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Dijkstra algoritmi murakkabligi (priority queue) = ?",
+      "opts": [
+        "O(V+E)",
+        "O(E·logV)",
+        "O(V²)",
+        "O(V·E)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sonlar nazariyasi: n! so'nggi nechta nol bilan tugaydi (n=10)?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "10! so'nggi nollar soni: ⌊10/5⌋ + ⌊10/25⌋ = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Euler totient φ(12) = ?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "φ(p) = p−1. φ(13) = ?",
+      "opts": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Fermaning kichik teoremasi: aᵖ ≡ ? (mod p), p tub",
+      "opts": [
+        "0",
+        "1",
+        "a",
+        "a−1"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "17 mod 5 = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "23 mod 7 = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Modular arifmetika: 3·5 ≡ ? (mod 7)",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "CRT: x ≡ 2(mod3), x ≡ 3(mod5) → x ≡ ?(mod15)",
+      "opts": [
+        "7",
+        "8",
+        "11",
+        "13"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "EKUB(Euclid algoritmi): EKUB(48,18) = ?",
+      "opts": [
+        "3",
+        "6",
+        "9",
+        "18"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "log₂(n) biti bilan ajratish mumkin bo'lgan sonlar soni = ?",
+      "opts": [
+        "n",
+        "2ⁿ",
+        "n²",
+        "log n"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Rekursiya: T(n) = 2T(n/2) + n. Master theorem: T(n) = ?",
+      "opts": [
+        "O(n)",
+        "O(n logn)",
+        "O(n²)",
+        "O(logn)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Master theorem: T(n) = aT(n/b) + nᶜ. a=b^c bo'lsa T(n) = ?",
+      "opts": [
+        "O(nᶜ)",
+        "O(nᶜ logn)",
+        "O(nˡᵒᵍᵇ ᵃ)",
+        "O(logn)"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Dinamik dasturlash: memoizatsiya nima?",
+      "opts": [
+        "rekursiya",
+        "hisoblangan natijalarni saqlash",
+        "greedy",
+        "backtracking"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "NP-muammo: nima NP to'liq?",
+      "opts": [
+        "saralash",
+        "Traveling Salesman (TSP)",
+        "ikkilik qidirish",
+        "kumulyativ yig'indi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Turingly to'xtatish muammosi = ?",
+      "opts": [
+        "P-muammo",
+        "NP-to'liq",
+        "Algoritmik hal etib bo'lmaydi",
+        "eksponen"
+      ],
+      "ans": 2
+    }
+  ],
+  "AP": [
+    {
+      "q": "Poincaré taxmini kim isbotladi?",
+      "opts": [
+        "Wiles",
+        "Perelman",
+        "Tao",
+        "Hamilton"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Fermat so'nggi teoremasi kim isbotladi?",
+      "opts": [
+        "Fermat",
+        "Gauss",
+        "Wiles",
+        "Euler"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Fields medali necha yilda bir marta beriladi?",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Millenium Prize muammolari: nechtasi hal etilgan?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "P ≠ NP masalasi hozir = ?",
+      "opts": [
+        "isbotlangan",
+        "rad etilgan",
+        "ochiq muammo",
+        "taxmin"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Riemann gipotezasi: ζ(s) nollarining haqiqiy qismi = ?",
+      "opts": [
+        "0",
+        "1",
+        "1/2",
+        "1/3"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Goldbach taxmini: har 4 dan katta juft son = ?",
+      "opts": [
+        "ikkita toq son yig'indisi",
+        "ikkita tub son yig'indisi",
+        "uchta tub son yig'indisi",
+        "ikkita juft son yig'indisi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "abc taxmini: rad(abc) = ?",
+      "opts": [
+        "a+b+c",
+        "a·b·c ning tub ko'paytuvchilar ko'paytmasi",
+        "a²+b²+c²",
+        "abc"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Langlands dasturi nima birlashtiradi?",
+      "opts": [
+        "analiz va geometriya",
+        "sonlar nazariyasi va reprezentatsiya nazariyasi",
+        "algebra va topologiya",
+        "kombinatorika va ehtimollik"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "BSD taxmini: elliptik egri chiziq rang = ?",
+      "opts": [
+        "L(E,s) ning darajasi",
+        "L(E,1) ning nol tartibi",
+        "E(Q) soni",
+        "L-funksiyaning qutbi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Weil taxminlari (1974, Deligne isbotladi). Bu muammo qaysi soha?",
+      "opts": [
+        "kombinatorika",
+        "algebraik geometriya",
+        "analitik sonlar nazariyasi",
+        "topologiya"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Grothendieck inqilobi: sxema nazariyasini kim yaratdi?",
+      "opts": [
+        "Weil",
+        "Serre",
+        "Grothendieck",
+        "Deligne"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "ζ(2) = π²/6. Bu qaysi masala yechimi?",
+      "opts": [
+        "Gauss",
+        "Basel muammosi",
+        "Bernoulli",
+        "Euler"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "ζ(−1) = −1/12 (analitik davom etish orqali). Bu haqiqatan tengmi?",
+      "opts": [
+        "Ha, analitik davom etish ma'nosida",
+        "Yo'q, bu xato",
+        "Ha, oddiy yig'indi",
+        "Yo'q, ζ(−1) aniqlanmagan"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Gamma funksiyasi Γ(n) = (n−1)! qachon?",
+      "opts": [
+        "n < 0",
+        "n = 0",
+        "n musbat butun",
+        "n irratsional"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Γ(1/2) = ?",
+      "opts": [
+        "1/2",
+        "1",
+        "√π",
+        "π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Stirling: n! ≈ √(2πn)(n/e)ⁿ. Bu taxmin qanchalik aniq?",
+      "opts": [
+        "to'g'ridan-to'g'ri teng",
+        "asimptotik teng (nisbiy xato → 0)",
+        "taxminiy",
+        "noto'g'ri"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Riemann − Zeta: ζ(s) = Σ 1/nˢ, Re(s) > 1. Euler ko'paytma shakli = ?",
+      "opts": [
+        "Πₚ 1/(1−p⁻ˢ)",
+        "Πₚ p⁻ˢ",
+        "Σₚ 1/p",
+        "Πₙ n⁻ˢ"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Cauchy integrali formulasi: f(a) = (1/2πi)∮ f(z)/(z−a) dz. Bu qaysi soha?",
+      "opts": [
+        "haqiqiy analiz",
+        "kompleks analiz",
+        "algebra",
+        "topologiya"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Muhim singularyarlik (essential singularity) atrofida funksiya (Picard teoremasi) = ?",
+      "opts": [
+        "chekli qiymat",
+        "har qanday qiymatni cheksiz marta qabul qiladi (bitta bundan tashqari)",
+        "nolga teng",
+        "1 ga teng"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Laurent qatoridagi bosh qism (principal part): n < 0 bo'lgan a_n(z−z₀)ⁿ qismlar. Yo'q bo'lsa = ?",
+      "opts": [
+        "munim singularyarlik",
+        "oddiy qutb",
+        "muhim singularyarlik",
+        "rezidu"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Rezidu teoremasi: ∮f(z)dz = 2πi·Σ Res(f,aₖ). Bu nima uchun ishlatiladi?",
+      "opts": [
+        "haqiqiy integrallarni hisoblash",
+        "matritsa",
+        "ehtimollik",
+        "sonlar nazariyasi"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Kompleks darajali: z = re^(iθ). Bu = ?",
+      "opts": [
+        "Euler formulasi",
+        "de Moivre",
+        "Taylor",
+        "Cauchy"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "de Moivre formulasi: (cosθ+isinθ)ⁿ = ?",
+      "opts": [
+        "cos(nθ)+isin(nθ)",
+        "n·cosθ+nisinθ",
+        "cosθⁿ+isinθⁿ",
+        "(cosθ)ⁿ"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Konformal xaritalash: analitik funksiya burchaklarni saqlaydi. Bu xossa nomi = ?",
+      "opts": [
+        "konformallik",
+        "biholomorfiklik",
+        "meromorfiklik",
+        "holomorfik"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Mobius transformatsiya: f(z) = (az+b)/(cz+d). Bu nima xaritalaydi?",
+      "opts": [
+        "faqat to'g'ri chiziqlar",
+        "faqat aylanalar",
+        "to'g'ri chiziqlar va aylanalarni bir-biriga",
+        "barcha egri chiziqlar"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Riemann sirtlari nima?",
+      "opts": [
+        "ko'p qiymatli kompleks funksiyalarni bir qiymatli qilish uchun geometrik qurilma",
+        "3D sirt",
+        "algebraik varietat",
+        "real manifold"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Gödel birinchi to'liqsizlik teoremasi: yetarlicha kuchli aksiomat sistema ...?",
+      "opts": [
+        "har doim to'liq",
+        "isbotlab bo'lmaydigan to'g'ri gaplarni o'z ichiga oladi",
+        "har doim izchil",
+        "hammasi isbotlanadi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Gödel ikkinchi to'liqsizlik: sistema o'z izchilligini o'z ichida isbotlay oladi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Ba'zan",
+        "Meta-sistemada ha"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "ZFC = Zermelo-Fraenkel + ?",
+      "opts": [
+        "Gödel aksiyomasi",
+        "Tanlov aksiyomasi (AC)",
+        "Uzluksizlik aksiyomasi",
+        "Alef aksiyomasi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Banach-Tarski paradoksi: shar necha bir xil sferaga bo'linishi mumkin?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "sonsiz"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Cantor diagonali: ℝ sanab chiqilmasligi isboti. Bu qaysi usul?",
+      "opts": [
+        "rekursiya",
+        "diagonalizatsiya",
+        "induksiya",
+        "kontrapozitsiya"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "|ℝ| = 2^ℵ₀ = ℵ₁? Bu nima muammo?",
+      "opts": [
+        "Riemann gipotezasi",
+        "Uzluksizlik gipotezasi (CH)",
+        "Goldbach taxmini",
+        "P=NP"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Uzluksizlik gipotezasi ZFC da hal etilganmi?",
+      "opts": [
+        "Ha, to'g'ri",
+        "Ha, noto'g'ri",
+        "Yo'q, ZFC dan mustaqil",
+        "Ha, isbotlangan"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Algebraik topologiya: π₁(S¹) = ?",
+      "opts": [
+        "trivial",
+        "ℤ",
+        "ℤ₂",
+        "ℤ×ℤ"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "π₁(S²) = ?",
+      "opts": [
+        "ℤ",
+        "ℤ₂",
+        "trivial {e}",
+        "∞"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "π₁(T²) = ? (tor = S¹×S¹)",
+      "opts": [
+        "ℤ",
+        "ℤ×ℤ",
+        "ℤ₂",
+        "trivial"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Euler xarakteristikasi χ(S²) = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "−2"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "χ(T²) = ?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "−2"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Gauss-Bonnet teoremasi: ∫∫K dA = 2π·χ. Sfera uchun ∫∫K dA = ?",
+      "opts": [
+        "0",
+        "2π",
+        "4π",
+        "π"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Homologiya guruhlari nima hisoblaydi?",
+      "opts": [
+        "funksiya qiymatlari",
+        "topologik 'tuynuklar' va 'bo'shliqlar'",
+        "algebra operatsiyalari",
+        "metrik xossalar"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "De Rham kohomologiya: tekis manifold uchun H^k_dR = ?",
+      "opts": [
+        "R",
+        "0 (k>0 da)",
+        "Z",
+        "kompleks son"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Chern klasslari: kompleks vektor to'plamning topologik invariantlari. c₁ qaysi?",
+      "opts": [
+        "birinchi Chern klassi",
+        "ikkinchi Chern klassi",
+        "umumiy Chern klassi",
+        "Euler klassi"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Atiyah-Singer indeks teoremasi: analitik indeks = topologik indeks. Bu qaysi soha?",
+      "opts": [
+        "faqat geometriya",
+        "differensial operatorlar va K-nazariya",
+        "faqat algebra",
+        "faqat topologiya"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Morse nazariyasi: kritik nuqta soni va topologiya. Betti soni = ?",
+      "opts": [
+        "topologik invariant",
+        "funksiya maksimumi",
+        "algebrik son",
+        "differensial son"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Symplectic manifold: ω yopiq, almashtirib bo'lmaydigan 2-forma. Darboux teoremasi: lokal = ?",
+      "opts": [
+        "global standart ko'rinish",
+        "standart ko'rinish (lokal)",
+        "Riemann ko'rinish",
+        "kanoniko ko'rinish"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Floer gomomologiyasi = cheksiz o'lchamli qaysi nazariya analogi?",
+      "opts": [
+        "Fourier",
+        "Morse",
+        "Laplace",
+        "Fourier-Laplace"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Kategoriyalar nazariyasi: morfizmlar nima?",
+      "opts": [
+        "ob'ektlar",
+        "ob'ektlar orasidagi xaritalar",
+        "ob'ektlarning xossalari",
+        "funktorlar"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Funktor F: C → D nima saqlashi kerak?",
+      "opts": [
+        "faqat ob'ektlar",
+        "morfizmlar kompozitsiyasi va identitetlar",
+        "faqat identitetlar",
+        "hech narsa"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Yoneda lemmasi: F: Cᵒᵖ → Set funktori hom-funktorga tabiiy izomorfik → F = ?",
+      "opts": [
+        "hom(−, A)",
+        "hom(A, −)",
+        "hom(A,B)",
+        "hom(F,G)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Galois nazariyasi: darajasi 5 umumiy ko'phad radikallarda yechilmaydi, chunki?",
+      "opts": [
+        "barcha S₅ solvable",
+        "S₅ solvable emas",
+        "S₅ abelian",
+        "A₅ abelian"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Algebraik kengaytma [Q(√2):Q] = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Galois guruhi Gal(Q(√2,√3)/Q) nechta elementdan?",
+      "opts": [
+        "2",
+        "4",
+        "8",
+        "∞"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ixtiyoriy chekli abelian guruh = ?",
+      "opts": [
+        "to'g'ridan-to'g'ri ko'paytma siklik guruhlar",
+        "matritsa guruhi",
+        "permutatsiyalar guruhi",
+        "simetrik guruh"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Lagrange teoremasi (guruh): |H|, |G| ni nechaga bo'ladi?",
+      "opts": [
+        "2 ga",
+        "qoldiqsiz",
+        "|G/H| ga",
+        "faqat |G|=|H| da"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sylow birinchi teoremasi: |G| = pⁿ·m (p tub, p∤m) → ?",
+      "opts": [
+        "Sylow p-guruh mavjud emas",
+        "pⁿ tartibli pastki guruh mavjud",
+        "faqat bitta pastki guruh",
+        "hech qanday pastki guruh"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ring: R = Kommutativ halqa, ideal I ⊂ R → faktor halqa R/I = ?",
+      "opts": [
+        "guruh",
+        "halqa",
+        "maydon",
+        "kommutativ halqa"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Asosiy ideal domenida (PID) har ideal = ?",
+      "opts": [
+        "bitta elementdan yaratiladigan",
+        "ikkita elementdan",
+        "sonli elementdan",
+        "yo'q"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "UFD (unique factorization domain): har element = ?",
+      "opts": [
+        "noyob ko'paytuvchilarga ajratilishi mumkin",
+        "bir nechta yo'l bilan",
+        "ajratib bo'lmaydi",
+        "prime emas"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Mordell-Weil teoremasi: Q ustidagi elliptik egri chiziq nuqtalar guruhi = ?",
+      "opts": [
+        "cheksiz erkin",
+        "chekli yaratiladigan",
+        "bo'sh",
+        "faqat trivial"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "BSD taxmini: L(E,1) = 0 ↔ rk(E(Q)) = ?",
+      "opts": [
+        "0",
+        "1",
+        "> 0",
+        "∞"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "p-adik sonlar: nima asosida qurilgan?",
+      "opts": [
+        "Arximed metrusi",
+        "p ga nisbatan non-Arximed metrika",
+        "kompleks metrika",
+        "Evklid metrusi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Hensel lemmasi: p-adik ildiz topish. Bu nima uchun?",
+      "opts": [
+        "p-adik tenglamalarni yechish",
+        "integrallash",
+        "hosilalar",
+        "ehtimollik"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Étale kohomologiya: kim yaratdi?",
+      "opts": [
+        "Weil",
+        "Grothendieck",
+        "Serre",
+        "Deligne"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Motivlar: algebraik geometriyadagi 'universal kohomologiya'. Kim isbotladi ko'p qismini?",
+      "opts": [
+        "Grothendieck (taxmin)",
+        "Voevodsky (qisman)",
+        "Wiles",
+        "Perelman"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "n! so'nggi nollar soni formulasi = ?",
+      "opts": [
+        "⌊n/5⌋",
+        "Σₖ ⌊n/5ᵏ⌋",
+        "n/5",
+        "n mod 5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "1 dan n gacha tub sonlar soni (taxminan) ≈ ?",
+      "opts": [
+        "√n",
+        "n/2",
+        "n/ln n",
+        "n²"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Tub sonlar soni cheksiz — kim isbotladi?",
+      "opts": [
+        "Gauss",
+        "Euclid",
+        "Fermat",
+        "Newton"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Twin prime taxmini: p va p+2 ko'rinishidagi tub juftlar = ?",
+      "opts": [
+        "chekli",
+        "cheksiz (taxmin)",
+        "mavjud emas",
+        "faqat 5"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Green-Tao teoremasi: tub sonlarda uzun arifmetik progressiyalar = ?",
+      "opts": [
+        "mavjud emas",
+        "faqat qisqa",
+        "har qanday uzunlikda mavjud",
+        "faqat juft uzunlikda"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Fibonacci: F(20) = ?",
+      "opts": [
+        "4181",
+        "6765",
+        "2584",
+        "10946"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Cassini identiteti: F(n−1)·F(n+1) − F(n)² = ?",
+      "opts": [
+        "0",
+        "1",
+        "−1^n",
+        "F(n)"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Golden ratio φ: φ² = φ + 1. φ³ = ?",
+      "opts": [
+        "φ+1",
+        "2φ+1",
+        "3φ−1",
+        "2φ−1"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "φⁿ = Fₙ·φ + Fₙ₋₁. Bu qaysi formulaga bog'liq?",
+      "opts": [
+        "Binet formulasi",
+        "Cassini",
+        "Lucas",
+        "Fibonacci"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Binet formulasi: Fₙ = (φⁿ − ψⁿ)/√5. ψ = ?",
+      "opts": [
+        "(1−√5)/2",
+        "(1+√5)/2",
+        "(√5−1)/2",
+        "−φ"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Catalan soni Cₙ = C(2n,n)/(n+1). C₄ = ?",
+      "opts": [
+        "9",
+        "14",
+        "16",
+        "20"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Bell soni B₄ = ?",
+      "opts": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Stirling sonlari (ikkinchi tur) S(4,2) = ?",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Partitions soni p(5) = ?",
+      "opts": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Derangement: D(3) = ?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Derangement formulasi: Dₙ = n!(1 − 1/1! + 1/2! − ... + (−1)ⁿ/n!). D(4) = ?",
+      "opts": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Ramsey soni R(3,3) = ?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "R(3,3) = 6: 6 kishida 3 do'st yoki 3 begona albatta bormi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Faqat 7 kishi uchun",
+        "Aniqlab bo'lmaydi"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Tur grafining ranglanishi (Turán number): ex(n,K₃) = ?",
+      "opts": [
+        "n²/4",
+        "n²/3",
+        "n/2",
+        "n"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Extremal graph theory: Kruskal-Katona teoremasi nima haqida?",
+      "opts": [
+        "grafda tsikl",
+        "to'plamlar sistemasining soyasi",
+        "daraxt",
+        "bipartit graf"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "4 rang teoremasi: planer grafni nechta rang bilan bo'yash mumkin?",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "5 rang teoremasi (Heawood): har planer graf 5 rang bilan bo'yaladi. Bu 4 rang teoremasi isbotida ishlatilganmi?",
+      "opts": [
+        "Ha, to'g'ridan-to'g'ri",
+        "Yo'q, u mustaqil natija",
+        "Faqat sferik graflar uchun",
+        "Ha, zarur shart"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Matroids: greedy algoritm qachon optimal?",
+      "opts": [
+        "har qanday muammoda",
+        "matroid tuzilmasi bo'lganda",
+        "daraxt muammosida",
+        "faqat bipartit graflarda"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Sperner lemmasi: uchburchak simplexi tomonlarida ranglangan simplekslar. U nima isbotlaydi?",
+      "opts": [
+        "uchta rang bor",
+        "3-rangli simplex mavjud",
+        "4 rang kerak",
+        "rang yo'q"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Brouwer fixed point: f: Dⁿ→Dⁿ uzluksiz → ?",
+      "opts": [
+        "f injeksiya",
+        "f surjeksiya",
+        "f'ning qo'zg'almas nuqtasi bor",
+        "f bijeksiya"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "Tychonoff teoremasi: kompakt to'plamlar Kartezian ko'paytmasi = ?",
+      "opts": [
+        "kompakt",
+        "kompakt emas",
+        "ochiq",
+        "yopiq"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Stone-Weierstrass: uzluksiz funksiyalar to'plami polinom bilan approksimatsiya qilinishi. Sharti = ?",
+      "opts": [
+        "har qanday uzluksiz funksiya",
+        "kompakt to'plamda uzluksiz funksiya",
+        "differensiallanuvchi funksiya",
+        "chiziqli funksiya"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Hahn-Banach teoremasi: chiziqli funksional kengaytma. Normani saqlaydi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Ba'zan",
+        "Faqat Hilbert fazosida"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Banach to'liq normali vektorli fazo. Banach-Steinhaus: agar F_α to'plami nuqtaviy chekli bo'lsa = ?",
+      "opts": [
+        "yagona chegarasi bor",
+        "cheksiz",
+        "konvergent",
+        "divergent"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Hilbert fazosi: to'liq ichki ko'paytiruvchan fazo. L² bu = ?",
+      "opts": [
+        "Hilbert fazosi",
+        "Banach, lekin Hilbert emas",
+        "topologik fazo",
+        "metrik fazo"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Riesz reprezentatsiya: Hilbert fazosidagi uzluksiz funksional f(x) = ?",
+      "opts": [
+        "f(x) = ⟨x,y⟩ biror y uchun",
+        "f(x) = x",
+        "f(x) = ||x||",
+        "f(x) = 0"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Spektral teorema (simmetrik operator): diagonalizatsiya mumkin, xususiy vektorlar = ?",
+      "opts": [
+        "ortogonal baza",
+        "ixtiyoriy baza",
+        "kompleks baza",
+        "nol baza"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Ergodic nazariya: o'rtacha vaqt o'rtachasi = prostranstvo o'rtachasi. Bu nima teorema?",
+      "opts": [
+        "Birkhoff ergodik teoremasi",
+        "Poincaré",
+        "Lyapunov",
+        "Shannon"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Stochastik integral: Itô formulas dF(t,Bₜ) = ?",
+      "opts": [
+        "∂F/∂t dt + ∂F/∂B dB",
+        "∂F/∂t dt + ∂F/∂B dB + ½∂²F/∂B² dt",
+        "∂F/∂B dB",
+        "dF = dB"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Martingale: E(Mₙ|Fₖ) = Mₖ (k≤n). Bu nima?",
+      "opts": [
+        "deterministik jarayon",
+        "kelgusida o'rtacha = hozirgi qiymat",
+        "o'sadigan jarayon",
+        "kamayuvchi jarayon"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Black-Scholes tenglamasi nima uchun?",
+      "opts": [
+        "issiqlik o'tkazuvchanlik",
+        "optsion narxlash",
+        "kvant mexanikasi",
+        "gidrodinamika"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "KPP/Fisher tenglama: uₜ = uₓₓ + f(u). Biologik ma'nosi = ?",
+      "opts": [
+        "tarqalish",
+        "populyatsiya to'lqini",
+        "kimyoviy reaktsiya",
+        "gidrodinamika"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Navier-Stokes tenglamasi: suyuqlik harakati. Bu Millenium muammolaridan birimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Qisman",
+        "Allaqachon hal etilgan"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Yang-Mills mavjudligi va massa darchasi: Millenium muammosimi?",
+      "opts": [
+        "Ha",
+        "Yo'q",
+        "Qisman",
+        "Hal etilgan"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Hodge taxmini: algebraik sikl va kohomologiya. Bu qaysi soha?",
+      "opts": [
+        "analiz",
+        "algebraik geometriya",
+        "kombinatorika",
+        "topologiya"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Konnes nomkommutativ geometriyasi: makon koordinatalari kommutatsiya qilmasin. Bu nima bilan bog'liq?",
+      "opts": [
+        "kvant mexanikasi",
+        "klassik fizika",
+        "statistika",
+        "kombinatorika"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "String nazariyasi matematikasida: Calabi-Yau manifold nima?",
+      "opts": [
+        "3D manifold",
+        "6D kompleks Kähler manifold (SU(3) holonomy)",
+        "4D simplectic manifold",
+        "2D Riemann sirt"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Mirror symmetry: Calabi-Yau juftligi. Hodge raqamlari qanday almashadi?",
+      "opts": [
+        "h^{p,q} → h^{q,p}",
+        "h^{1,1} ↔ h^{2,1}",
+        "barcha raqamlar teng",
+        "hech qanday almashuv"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Donaldson invariantlari: 4-manifoldlar uchun nima beradi?",
+      "opts": [
+        "differensial tuzilma to'g'risida ma'lumot",
+        "fundamental guruh",
+        "homologiya",
+        "metrika"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Seiberg-Witten invariantlari Donaldson dan qanday farqlanadi?",
+      "opts": [
+        "aniqroq va hisoblash osonroq",
+        "murakkab",
+        "faqat 3D uchun",
+        "topologik emas"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Congruent number muammo: n kongruentmi? Bu qaysi L-funksiya bilan bog'liq?",
+      "opts": [
+        "Riemann ζ",
+        "elliptik egri chiziqning L-funksiyasi",
+        "Dirichlet L",
+        "Hecke L"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Iwasawa algebra: Zₚ[[T]] nima?",
+      "opts": [
+        "p-adik formal quvvat qatori halqasi",
+        "oddiy halqa",
+        "matritsa halqasi",
+        "guruh halqasi"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Taniyama-Shimura-Weil taxmini (Wiles isbotladi): har elliptik egri chiziq = ?",
+      "opts": [
+        "tub son egri chiziq",
+        "modular forma",
+        "algebraik varietat",
+        "Riemann sirti"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Modulyarlik teoremasi (Wiles, Taylor-Wiles): isbotlash natijasida nima kelib chiqdi?",
+      "opts": [
+        "P=NP",
+        "Fermat so'nggi teoremasi",
+        "Goldbach taxmini",
+        "Riemann gipotezasi"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "Hecke operatorlari: modular formalarda qanday ishlaydi?",
+      "opts": [
+        "diagonalizatsiya",
+        "interpolatsiya",
+        "integrallash",
+        "differensiallash"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Automorphic representation: GL(n) ustida. Bu Langlands dasturining qaysi qismi?",
+      "opts": [
+        "Galois reprezentatsiyalar bilan bog'liq",
+        "sonlar bilan bog'liq",
+        "geometriya bilan",
+        "faqat algebra"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Vojta taxmini: Faltings natijasini (Mordell) kuchaytirish. Bu taxmin nimani aytadi?",
+      "opts": [
+        "ratsional nuqtalar chekli",
+        "cheksiz ratsional nuqta",
+        "faqat butun nuqtalar",
+        "hech qanday nuqta"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Arakelov geometriya: Weil heights va nima birlashtirilgan?",
+      "opts": [
+        "algebraik geometriya + sonlar nazariyasi + analitik metrika",
+        "faqat geometriya",
+        "faqat sonlar",
+        "topologiya"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Beilinson taxminlari: motivik kohomologiya va qaysi orasida munosabat?",
+      "opts": [
+        "L-funksiyalar qiymatlari",
+        "Fourier koeffitsientlari",
+        "Galois guruhlari",
+        "Hecke operatorlari"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "Bloch-Kato taxmini (Voevodsky isbotladi): Milnor K-nazariyasi va Galois kohomologiya orasida munosabat. Bu isbotlangandan keyin nima kelib chiqdi?",
+      "opts": [
+        "Fermat",
+        "Weil taxminlari",
+        "Bass taxmini",
+        "Bloch-Kato to'liq"
+      ],
+      "ans": 3
+    }
+  ]
+}
