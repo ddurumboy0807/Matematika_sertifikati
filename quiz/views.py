@@ -156,69 +156,47 @@ def answer_question(request):
 
 
 @csrf_exempt
-def result_view(request):
+@require_POST  
+def answer_question(request):
+    try:
+        data = json.loads(request.body)
+        selected = int(data.get('selected', -1))
+    except Exception:
+        selected = -1
+
+    questions = request.session.get('quiz_questions', [])
+    current = request.session.get('quiz_current', 0)
     score = request.session.get('quiz_score', 0)
-    level_key = request.session.get('quiz_level')
-    total = len(request.session.get('quiz_questions', []))
+    answers = request.session.get('quiz_answers', [])
 
-    if not level_key or total == 0:
-        return redirect('home')
+    if current >= len(questions):
+        return JsonResponse({'redirect': '/result/'})
 
-    grade = get_grade(score, total)
-    pct = round((score / total) * 100, 1)
-    wrong = total - score
+    q = questions[current]
+    correct = q['correct']
+    is_correct = (selected == correct)
 
-    # Save result
-    user_name = request.session.get('user_name', '')
-    result = QuizResult.objects.create(
-        session_key=request.session.session_key or 'anon',
-        user_name=user_name,
-        level=level_key,
-        score=score,
-        total=total,
-        grade=grade,
-        percentage=pct,
-        ip_address=request.META.get('REMOTE_ADDR'),
-    )
+    if is_correct:
+        score += 1
 
-    grade_colors = {
-        'A+': '#4caf82', 'A': '#6bc99a', 'B+': '#5599ee',
-        'B': '#7ab2f2', 'C+': '#ffb450', 'C': '#ffc470', '—': '#e05555'
-    }
+    answers.append({
+        'question_id': q['id'],
+        'selected': selected,
+        'correct': correct,
+        'is_correct': is_correct,
+    })
 
-    grade_messages = {
-        'A+': ('🏆 Ajoyib! Mukammal natija!', 'Siz ushbu darajani to\'liq egallagan ekansiz — tabriklaymiz!'),
-        'A': ('🥇 Zo\'r! A darajasi!', 'Bilimingiz juda yuqori. Mukammal bo\'lish uchun biroz mashq qiling.'),
-        'B+': ('🥈 Yaxshi! B+ natijasi!', 'A darajasiga yetish uchun mavzularni takrorlang.'),
-        'B': ('📘 B natijasi', 'O\'rta-yuqori daraja. Biroz mashq qilib A ga erishing!'),
-        'C+': ('📙 C+ natijasi', 'Mavzularni chuqurroq o\'rganing va qayta urinib ko\'ring.'),
-        'C': ('📒 C natijasi', 'Asosiy bilimlar bor, lekin ko\'proq mashq kerak.'),
-        '—': ('📖 Davom eting!', 'Pastroq darajadan boshlang va asta-sekin yuqorilang. 💪'),
-    }
+    request.session['quiz_score'] = score
+    request.session['quiz_current'] = current + 1
+    request.session['quiz_answers'] = answers
+    request.session.modified = True
 
-    title, message = grade_messages.get(grade, ('Natija', ''))
+    next_current = current + 1
+    is_last = next_current >= len(questions)
 
-    context = {
+    return JsonResponse({
+        'is_correct': is_correct,
+        'correct_index': correct,
+        'is_last': is_last,
         'score': score,
-        'wrong': wrong,
-        'total': total,
-        'pct': pct,
-        'grade': grade,
-        'grade_color': grade_colors.get(grade, '#888'),
-        'level': LEVEL_DISPLAY.get(level_key, level_key),
-        'level_key': level_key,
-        'title': title,
-        'message': message,
-        'result_id': result.id,
-    }
-
-    # Clear session quiz data
-    for key in ['quiz_questions', 'quiz_score', 'quiz_current', 'quiz_answers', 'quiz_level']:
-        request.session.pop(key, None)
-
-    return render(request, 'quiz/result.html', context)
-
-
-def leaderboard(request):
-    results = QuizResult.objects.order_by('-percentage', '-score', 'created_at')[:50]
-    return render(request, 'quiz/leaderboard.html', {'results': results})
+    })
