@@ -57,11 +57,11 @@ const IS_LAST = {% if current == total %}true{% else %}false{% endif %};
 let timeLeft = 60;
 let timerInterval;
 let answered = false;
+let isLast = IS_LAST;
 
 const timerEl = document.getElementById('timer');
 const btnNext = document.getElementById('btn-next');
 
-// Set level chip color
 const levelColors = {
   'C':'#ffc470','C+':'#ffb450','B':'#7ab2f2','B+':'#5599ee','A':'#6bc99a','A+':'#4caf82'
 };
@@ -91,7 +91,16 @@ function autoFail() {
   disableButtons();
   const btns = document.querySelectorAll('.option-btn');
   btns[CORRECT_INDEX].classList.add('correct');
-  btnNext.style.display = 'block';
+  // Send -1 (no answer) to server
+  fetch('/answer/', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json','X-CSRFToken':getCookie('csrftoken')},
+    body: JSON.stringify({selected: -1})
+  }).then(r=>r.json()).then(data=>{
+    isLast = data.is_last;
+    btnNext.textContent = isLast ? "Natijani ko'rish →" : "Keyingi savol →";
+    btnNext.style.display = 'block';
+  });
 }
 
 function selectAnswer(idx) {
@@ -99,7 +108,6 @@ function selectAnswer(idx) {
   answered = true;
   clearInterval(timerInterval);
 
-  // Send to server
   fetch('/answer/', {
     method: 'POST',
     headers: {
@@ -118,10 +126,9 @@ function selectAnswer(idx) {
       btns[idx].classList.add('wrong');
       btns[data.correct_index].classList.add('correct');
     }
+    isLast = data.is_last;
+    btnNext.textContent = isLast ? "Natijani ko'rish →" : "Keyingi savol →";
     btnNext.style.display = 'block';
-    if(data.is_last) {
-      btnNext.textContent = 'Natijani ko\'rish →';
-    }
   });
 }
 
@@ -130,11 +137,9 @@ function disableButtons() {
 }
 
 function goNext() {
-  if(IS_LAST || document.getElementById('btn-next').textContent.includes('Natija')) {
+  if(isLast) {
     window.location.href = '/result/';
   } else {
-    window.location.reload();
-    // Actually we redirect the quiz route which gives next question
     window.location.href = '/quiz/';
   }
 }
