@@ -155,6 +155,7 @@ def answer_question(request):
     })
 
 
+@csrf_exempt
 def result_view(request):
     score = request.session.get('quiz_score', 0)
     level_key = request.session.get('quiz_level')
